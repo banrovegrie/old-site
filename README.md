@@ -8,7 +8,7 @@ How to connect to me?
 
 - Google Account : [ac.ala.arya@gmail.com](mailto:ac.ala.arya@gmail.com)
 - Academic E-mail : [alapan.chaudhuri@research.iiit.ac.in](mailto:alapan.chaudhuri@research.iiit.ac.in)
-- GitHub : [banrovegrie](https://github.com/banrovegrie
+- GitHub : [banrovegrie](https://github.com/banrovegrie)
 - Stack Exchange: [banrovegrie](https://stackexchange.com/users/11999053/alapan-chaudhuri)
 
 ***Aliases**:*
