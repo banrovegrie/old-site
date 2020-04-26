@@ -8,7 +8,8 @@ How to connect to me?
 
 - Google Account : [ac.ala.arya@gmail.com](mailto:ac.ala.arya@gmail.com)
 - Academic E-mail : [alapan.chaudhuri@research.iiit.ac.in](mailto:alapan.chaudhuri@research.iiit.ac.in)
-- GitHub : [banrovegrie](https://github.com/banrovegrie)
+- GitHub : [banrovegrie](https://github.com/banrovegrie
+- Stack Exchange: [banrovegrie](https://stackexchange.com/users/11999053/alapan-chaudhuri)
 
 ***Aliases**:*
 1. *Arjo, Arya, Dada*
@@ -16,11 +17,17 @@ How to connect to me?
 
 ## My Notes and Writings
 
+# Public
+
+- [banrovegrie/Notebooks](http://github.com/banrovegrie/Notebooks)
+
+- [banrovegrie.github.io](http://banrovegrie.github.io)
+
+# Private and Incomplete
+
 - [Mathematics and Sciences](https://www.notion.so/3314082755ce41ebb0b5fd26f0e9661b)
 
 - [Arts and Letters](https://www.notion.so/09db23e4229a4be6a4c46f5374912b4b)
-
-- [banrovegrie/Notebooks](http://github.com/banrovegrie/Notebooks)
 
 
 # Digit DP
