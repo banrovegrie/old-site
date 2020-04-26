@@ -1,5 +1,3 @@
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML"></script>
-
 # Alapan Chaudhuri
 
 ### I am currently a student at the International Institute of Information Technology, Hyderabad - pursuing integrated Masters in Computational Sciences (by Research) with B.Tech in Computer Science and Engineering.
@@ -509,3 +507,5 @@ fundamental function of language is communication. But that certainly doesn't ma
     • Meaning within/at contexual level, aka, Pragmatics:
         ◦ ... research
     ```
+
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML"></script>
