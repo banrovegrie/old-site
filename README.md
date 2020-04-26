@@ -15,19 +15,11 @@ How to connect to me?
 1. *Arjo, Arya, Dada*
 2. *banrovegrie (Dāritys Morgho ban Rōvēgrie), alathedarkwiz (cringey yes i know)*
 
-## My Notes and Writings
-
-# Public
+## My Study Notes and Writings
 
 - [banrovegrie/Notebooks](http://github.com/banrovegrie/Notebooks)
 
 - [banrovegrie.github.io](http://banrovegrie.github.io)
-
-# Private and Incomplete
-
-- [Mathematics and Sciences](https://www.notion.so/3314082755ce41ebb0b5fd26f0e9661b)
-
-- [Arts and Letters](https://www.notion.so/09db23e4229a4be6a4c46f5374912b4b)
 
 
 # Digit DP
