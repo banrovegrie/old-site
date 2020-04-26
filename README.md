@@ -26,6 +26,21 @@ How to connect to me?
 
 ![image](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc2a7f3a-0f2b-4bf8-86a1-badfe72db1a0/44DFE428-92D2-4496-ADF6-AAAB068CDDF5.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200426T145529Z&X-Amz-Expires=86400&X-Amz-Signature=d9f91fc4a0a64cc8e0ca7b97c00b420bd0e677e0086cd4ea79657bdd06a7e2f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2244DFE428-92D2-4496-ADF6-AAAB068CDDF5.jpeg%22)
 
+# Work Strategy
+
+![image](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/55e9d2db-f7ed-45b6-8a66-08289d69b2e0/BF29D949-C409-4BAE-878D-EFBD696A6AA0.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200426T152228Z&X-Amz-Expires=86400&X-Amz-Signature=da1b8ac38720f10be3d3259edb27bb24b4a26453c9a5d3cdf25e521be05c7c82&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22BF29D949-C409-4BAE-878D-EFBD696A6AA0.jpeg%22)
+
+```python
+This is a strategy of getting things during Research/Study in general.
+
+1. Don't focus too much in organisation, and certainly donot overindulge yourself in it. 
+(K.I.S.S.)
+2. On learning a new idea/trick/topic, make more connections in order to retain.
+(Connecting the Dots) 
+
+Focus on Understanding and Problem Solving for that is how you exactly get things done.
+```
+
 # Digit DP
 
 Created: Apr 15, 2020 3:42 PM
