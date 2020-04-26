@@ -24,7 +24,7 @@ How to connect to me?
 
 # Problem Solving Heuristics
 
-![image](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc2a7f3a-0f2b-4bf8-86a1-badfe72db1a0/44DFE428-92D2-4496-ADF6-AAAB068CDDF5.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200426T145529Z&X-Amz-Expires=86400&X-Amz-Signature=d9f91fc4a0a64cc8e0ca7b97c00b420bd0e677e0086cd4ea79657bdd06a7e2f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2244DFE428-92D2-4496-ADF6-AAAB068CDDF5.jpeg%22)
+![image](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/274e8be4-5c03-458d-a1a2-d9f6a1327086/9E880424-FAA1-476F-A540-DDDC5147A96C.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200426%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200426T153354Z&X-Amz-Expires=86400&X-Amz-Signature=379c9f412372197106736a9a3174aac0a7d6a042a6b16b450c09742a7a41e1ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%229E880424-FAA1-476F-A540-DDDC5147A96C.jpeg%22)
 
 # Work Strategy
 
