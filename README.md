@@ -315,7 +315,7 @@ You are to form an MST such that the no. of edges in the MST that are connected 
 
 Simply put, 
 		
-		$$Edges \in MST\ connected\ to\ 1\ =\ k$$
+$$Edges \in MST\ connected\ to\ 1\ =\ k$$
 
 ## Solution
 
