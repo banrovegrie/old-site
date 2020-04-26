@@ -313,7 +313,8 @@ Tags: CP
 
 You are to form an MST such that the no. of edges in the MST that are connected to the index 1 is k which is given.
 
-Simply put, $$Edges \in MST\ connected\ to\ 1\ =\ k$$
+Simply put, 
+		$$Edges \in MST\ connected\ to\ 1\ =\ k$$
 
 ## Solution
 
