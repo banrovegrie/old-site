@@ -198,7 +198,7 @@ Tags: CP
 This is related to a problem I came across in OJ 4 (DSA) and the following is the solution:
 
 ```cpp
-*int n, m, k;
+int n, m, k;
 map<int, int> parent, val;
 int net = 0, ans = INF;
 
@@ -220,9 +220,9 @@ int Get(int i)
 {
     if (!parent.count(i)) parent[i] = i, val[i] = 0;
     return parent[i];
-}*
+}
 
-**int Find(int x)
+int Find(int x)
 {
     int p = Get(x);
     if (p == x) return x;
@@ -250,9 +250,9 @@ void Union(int i, int j, int x)
         else
             ans = 0;
     }
-}**
+}
 
-*signed main()
+signed main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -279,7 +279,7 @@ void Union(int i, int j, int x)
         cout << ans << endl;
     }
     return 0;
-}*
+}
 ```
 
 # Interesting Application of Binary Searching
