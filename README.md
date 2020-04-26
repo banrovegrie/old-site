@@ -415,18 +415,7 @@ Now we binary search over the suitable weight.
         return 0;
     }
     ```
-
-- **Chat that might clear doubts**
-
-    [Screenshot 2020-04-03 at 1.26.08 AM.png](Interesting%20Application%20of%20Binary%20Searching/Screenshot_2020-04-03_at_1.26.08_AM.png)
-
-    [Screenshot 2020-04-03 at 1.26.20 AM.png](Interesting%20Application%20of%20Binary%20Searching/Screenshot_2020-04-03_at_1.26.20_AM.png)
-
-    [Screenshot 2020-04-03 at 1.26.32 AM.png](Interesting%20Application%20of%20Binary%20Searching/Screenshot_2020-04-03_at_1.26.32_AM.png)
-
-    [Screenshot 2020-04-03 at 1.26.52 AM.png](Interesting%20Application%20of%20Binary%20Searching/Screenshot_2020-04-03_at_1.26.52_AM.png)
-
-    [Screenshot 2020-04-03 at 1.27.03 AM.png](Interesting%20Application%20of%20Binary%20Searching/Screenshot_2020-04-03_at_1.27.03_AM.png)
+    
 
 # Communication of meaning is achieved through 'words' and 'grammatical structures' alone
 
