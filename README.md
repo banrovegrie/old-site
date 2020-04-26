@@ -1,4 +1,4 @@
-# Alapan Chaudhuri
+## Alapan Chaudhuri
 
 ### I am currently a student at the International Institute of Information Technology, Hyderabad - pursuing integrated Masters in Computational Sciences (by Research) with B.Tech in Computer Science and Engineering.
 
