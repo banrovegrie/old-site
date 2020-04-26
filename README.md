@@ -24,10 +24,10 @@ How to connect to me?
 
 # Digit DP
 
-Completed: Yes
 Created: Apr 15, 2020 3:42 PM
+
 Notes: My Digit DP Implementation
-Property: Alapan Chaudhuri
+
 Tags: CP
 
 ```cpp
@@ -44,29 +44,29 @@ int solve(int b)
 
 int call(int pos, int cnt, int flag)
 {
-    if (**cnt > k**) return 0;
+    if (cnt > k) return 0;
     
-		if (**pos == num.size()**)
+		if (pos == num.size())
     {
-        if (**cnt == k**) return 1;
+        if (cnt == k) return 1;
         else return 0;
     }
 
     if (f[pos][cnt][flag] != -1) return f[pos][cnt][flag];
     f[pos][cnt][flag] = 0;
 
-    **int limit = 9;
+    int limit = 9;
     if (flag == 0)
-        limit = num[pos];**
+        limit = num[pos];
 
-    for (int i = 0; i <= **limit**; i++)
+    for (int i = 0; i <= limit; i++)
     {
-        **int next_flag = flag, next_cnt = cnt;
+        int next_flag = flag, next_cnt = cnt;
 
         if (i < limit) next_flag = 1;
         if (i == d) next_cnt++;
 
-        f[pos][cnt][flag] += call(pos + 1, next_cnt, next_flag);**
+        f[pos][cnt][flag] += call(pos + 1, next_cnt, next_flag);
     }
     return f[pos][cnt][flag];
 }
