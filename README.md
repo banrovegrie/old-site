@@ -1,5 +1,3 @@
-## Alapan Chaudhuri, student of Mathematics and Computer Science
-
 ### I am currently a student at the International Institute of Information Technology, Hyderabad - pursuing integrated Masters in Computational Sciences (by Research) with B.Tech in Computer Science and Engineering.
 
 ### This wiki is my attempt to dump all my Notes in one place which is not only easily available but also easily searchable.
