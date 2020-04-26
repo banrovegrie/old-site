@@ -311,7 +311,7 @@ Now we binary search over the suitable weight.
 - **Code**
 
     ```cpp
-    int =n, m, k;
+    int n, m, k;
     int net, connections;
     vi parent, ans;
 
