@@ -21,3 +21,54 @@ How to connect to me?
 - [Arts and Letters](https://www.notion.so/09db23e4229a4be6a4c46f5374912b4b)
 
 - [banrovegrie/Notebooks](http://github.com/banrovegrie/Notebooks)
+
+# Digit DP
+
+Completed: Yes
+Created: Apr 15, 2020 3:42 PM
+Notes: My Digit DP Implementation
+Property: Alapan Chaudhuri
+Tags: CP
+
+```cpp
+/*dp[pos][cnt][flag] -> dp form with states*/
+
+int solve(int b)
+{
+    num.clear();
+    while (b > 0)
+        num.pb(b % 10), b /= 10;
+    reverse(all(num));
+    return call(0, 0, 0);
+}
+
+int call(int pos, int cnt, int flag)
+{
+    if (**cnt > k**) return 0;
+    
+		if (**pos == num.size()**)
+    {
+        if (**cnt == k**) return 1;
+        else return 0;
+    }
+
+    if (f[pos][cnt][flag] != -1) return f[pos][cnt][flag];
+    f[pos][cnt][flag] = 0;
+
+    **int limit = 9;
+    if (flag == 0)
+        limit = num[pos];**
+
+    for (int i = 0; i <= **limit**; i++)
+    {
+        **int next_flag = flag, next_cnt = cnt;
+
+        if (i < limit) next_flag = 1;
+        if (i == d) next_cnt++;
+
+        f[pos][cnt][flag] += call(pos + 1, next_cnt, next_flag);**
+    }
+    return f[pos][cnt][flag];
+}
+
+```
