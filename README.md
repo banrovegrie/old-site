@@ -1,3 +1,14 @@
+- [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
+- [Problem Solving Heuristics](#problem-solving-heuristics)
+- [Work Strategy](#work-strategy)
+- [Digit DP](#digit-dp)
+- [Introduction to Internet of Things](#introduction-to-internet-of-things)
+- [Number of Sub-arrays with Sum = k](#number-of-sub-arrays-with-sum-equal-to-k)
+- [Calculating pre-xors in a Tree (DSU application)](#calculating-prexors-in-a-tree-as-a-dsu-application)
+- [Interesting Application of Binary Searching](#interesting-application-of-binary-searching)
+- [Communication of meaning is achieved through 'words' and 'grammatical structures' alone](#communication-of-meaning-is-achieved-through-words-and-grammatical-structures-alone)
+
+
 # Alapan Chaudhuri
 
 ### I am currently a student at the International Institute of Information Technology, Hyderabad - pursuing integrated Masters in Computational Sciences (by Research) with B.Tech in Computer Science and Engineering.
@@ -173,7 +184,7 @@ Tags: IoT, Study
 - MQTT and DDS: centralised vs decentralised, DDS provides more QoS aspects than MQTT
 - Complexity: MQTT is simpler up front but assumes future, while DDS requires up front investment but minimizes future complexity
 
-# Number of Sub-arrays with Sum = k
+# Number of Sub-arrays with Sum equal to k
 
 Created: Apr 09, 2020 11:00 PM
 
@@ -204,7 +215,7 @@ int Sum(int arr[], int n, int sum = 1)
 }
 ```
 
-# Calculating pre-xors in a Tree (DSU application)
+# Calculating prexors in a Tree as a DSU application
 
 Created: Apr 09, 2020 10:54 PM
 
@@ -437,7 +448,7 @@ Now we binary search over the suitable weight.
     ```
     
 
-# Communication of meaning is achieved through 'words' and 'grammatical structures' alone
+# Communication of meaning is achieved through words and grammatical structures alone
 
 Created: Apr 21, 2020 11:57 PM
 
