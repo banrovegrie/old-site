@@ -46,7 +46,7 @@ Focus on Understanding and Problem Solving for that is how you exactly get thing
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
-- [Algebra](banrovegrie.github.io/algrebra)
+- [Algebra](https://banrovegrie.github.io/algrebra)
 - [Analysis](banrovegrie.github.io/analysis)
 - [Complexity Theory](banrovegrie.github.io/complexity-theory)
 - [Elementary Algorithms and Data Structures](banrovegrie.github.io/cp)
