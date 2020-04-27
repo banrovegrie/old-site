@@ -46,3 +46,16 @@ Focus on Understanding and Problem Solving for that is how you exactly get thing
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
+- [Algebra](banrovegrie.github.io/algrebra)
+- [Analysis](banrovegrie.github.io/analysis)
+- [Complexity Theory](banrovegrie.github.io/complexity-theory)
+- [Elementary Algorithms and Data Structures](banrovegrie.github.io/cp)
+- [Computer Systems and Organisation](banrovegrie.github.io/cso)
+- [Data Science](banrovegrie.github.io/data-science)
+- [Economics](banrovegrie.github.io/economics)
+- [Electrodynamics](banrovegrie.github.io/electrodynamics)
+- [IoT](banrovegrie.github.io/iot)
+- [Language](banrovegrie.github.io/linguistics-and-language)
+- [Number Theory](banrovegrie.github.io/number-theory)
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
