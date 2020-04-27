@@ -24,11 +24,11 @@ How to connect to me?
 
 # Problem Solving Heuristics
 
-![image](https://github.com/banrovegrie/banrovegrie.github.io/blob/master/bigpp.jpg)
+<img src="./bigpp.img" alt="image">
 
 # Work Strategy
 
-![image](https://github.com/banrovegrie/banrovegrie.github.io/blob/master/xxx.jpg)
+<img src="./xxx.img" alt="image">
 
 ```latex
 This is a strategy of getting things during Research/Study in general.
