@@ -55,7 +55,7 @@ Focus on Understanding and Problem Solving for that is how you exactly get thing
 - [Economics](https://banrovegrie.github.io/economics)
 - [Electrodynamics](https://banrovegrie.github.io/electrodynamics)
 - [IoT](https://banrovegrie.github.io/iot)
-- [Language](https://banrovegrie.github.io/linguistics-and-language)
+- [Language](https://banrovegrie.github.io/linguistics-and-languages)
 - [Number Theory](https://banrovegrie.github.io/number-theory)
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
