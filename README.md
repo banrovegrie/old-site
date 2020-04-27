@@ -46,6 +46,7 @@ Focus on Understanding and Problem Solving for that is how you exactly get thing
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
+<<<<<<< HEAD
 - [Algebra](banrovegrie.github.io/algrebra)
 - [Analysis](banrovegrie.github.io/analysis)
 - [Complexity Theory](banrovegrie.github.io/complexity-theory)
@@ -57,5 +58,7 @@ Focus on Understanding and Problem Solving for that is how you exactly get thing
 - [IoT](banrovegrie.github.io/iot)
 - [Language](banrovegrie.github.io/linguistics-and-language)
 - [Number Theory](banrovegrie.github.io/number-theory)
+=======
+>>>>>>> e26be363188aa6fa8c8690ad5fb981bba8dfa93b
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
