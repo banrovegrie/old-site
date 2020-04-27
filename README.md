@@ -54,11 +54,9 @@ Focus on Understanding and Problem Solving for that is how you exactly get thing
 
 # Digit DP
 
-Created: Apr 15, 2020 3:42 PM
-
 Notes: My Digit DP Implementation
 
-Tags: CP
+Tags: CP 
 
 ```cpp
 /*dp[pos][cnt][flag] -> dp form with states*/
@@ -104,8 +102,6 @@ int call(int pos, int cnt, int flag)
 ```
 
 # Introduction to Internet of Things
-
-Created: Apr 24, 2020 9:55 PM
 
 Notes: This is a summary of the IoT course taught in college
 
@@ -186,8 +182,6 @@ Tags: IoT, Study
 
 # Number of Sub-arrays with Sum equal to k
 
-Created: Apr 09, 2020 11:00 PM
-
 Notes: A solution
 
 Tags: CP, Work
@@ -216,8 +210,6 @@ int Sum(int arr[], int n, int sum = 1)
 ```
 
 # Calculating prexors in a Tree as a DSU application
-
-Created: Apr 09, 2020 10:54 PM
 
 Tags: CP
 
@@ -309,8 +301,6 @@ signed main()
 ```
 
 # Interesting Application of Binary Searching
-
-Created: Apr 02, 2020 5:19 PM
 
 Notes: An interesting application of binary searching that can be applied to greedy graph algorithms like MST and Flows
 
@@ -449,8 +439,6 @@ Now we binary search over the suitable weight.
     
 
 # Communication of meaning is achieved through words and grammatical structures alone
-
-Created: Apr 21, 2020 11:57 PM
 
 Notes: a study
 
