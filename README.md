@@ -24,11 +24,11 @@ How to connect to me?
 
 # Problem Solving Heuristics
 
-![image](https://imgur.com/AT0ZztL)
+<img src = "https://lh3.googleusercontent.com/zUlDq4Y6djOTYd30M50sCvd2VWP7L-Hk0jfpGKLTw-rRxNUgBsdBifsypThLB6O_fP-inaianKwEaRrZYM8SpclkJL9rIJ6Xg-ype_ynu1jC78wrHShfvhyQuRRkTFeZoI1oAZTsbg" width="600" height="315" />
 
 # Work Strategy
 
-![image](https://imgur.com/AT0ZztL)
+<img src = "https://lh3.googleusercontent.com/TUnW9a0iHJCwSzL_SW80g23p9u_ep1X03U9CQBoP-kW_HdUgN5XiIXWl6zznA8jgTtS1F134kKp1ixBZvH21Uf2US50FZvF_8AGCPwZDYrsrTlgcMXkZtrlR-bQSt_q3YxyJHPu09A" width="700" height="315" />
 
 ```latex
 This is a strategy of getting things during Research/Study in general.
