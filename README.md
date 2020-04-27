@@ -58,4 +58,5 @@ Focus on Understanding and Problem Solving for that is how you exactly get thing
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
 - [Number Theory](https://banrovegrie.github.io/number-theory)
 
+### All empty pages are still private :)
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
