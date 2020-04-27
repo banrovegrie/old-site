@@ -1,19 +1,8 @@
-- [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
-- [Problem Solving Heuristics](#problem-solving-heuristics)
-- [Work Strategy](#work-strategy)
-- [Digit DP](#digit-dp)
-- [Introduction to Internet of Things](#introduction-to-internet-of-things)
-- [Number of Sub-arrays with Sum = k](#number-of-sub-arrays-with-sum-equal-to-k)
-- [Calculating pre-xors in a Tree (DSU application)](#calculating-prexors-in-a-tree-as-a-dsu-application)
-- [Interesting Application of Binary Searching](#interesting-application-of-binary-searching)
-- [Communication of meaning is achieved through 'words' and 'grammatical structures' alone](#communication-of-meaning-is-achieved-through-words-and-grammatical-structures-alone)
-
+### This wiki is my attempt to dump $$\pi$$ % of whatever-i-fancy shit from my studies/writings in one readily searchable place.
 
 # Alapan Chaudhuri
 
 **I am currently a student at the International Institute of Information Technology, Hyderabad - pursuing integrated Masters in Computational Sciences (by Research) with B.Tech in Computer Science and Engineering.**
-
-### This wiki is my attempt to dump $$\pi$$ % of interesting shit from my Notes in one readily searchable place.
 
 How to connect to me?
 
@@ -26,11 +15,15 @@ How to connect to me?
 1. *Arjo, Arya, Dada*
 2. *banrovegrie (Dāritys Morgho ban Rōvēgrie), alathedarkwiz (cringey yes i know)*
 
-## My Study Notes and Writings
+## My Study Notes, Codes and Writings 
+
+- iCloud/Documents
 
 - [banrovegrie/Notebooks](http://github.com/banrovegrie/Notebooks)
 
 - [banrovegrie.github.io](http://banrovegrie.github.io)
+
+- Notion and Notability
 
 
 # Problem Solving Heuristics
@@ -51,6 +44,18 @@ This is a strategy of getting things during Research/Study in general.
 
 Focus on Understanding and Problem Solving for that is how you exactly get things done.
 ```
+
+# Table of Contents
+
+- [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
+- [Problem Solving Heuristics](#problem-solving-heuristics)
+- [Work Strategy](#work-strategy)
+- [Digit DP](#digit-dp)
+- [Introduction to Internet of Things](#introduction-to-internet-of-things)
+- [Number of Sub-arrays with Sum = k](#number-of-sub-arrays-with-sum-equal-to-k)
+- [Calculating pre-xors in a Tree (DSU application)](#calculating-prexors-in-a-tree-as-a-dsu-application)
+- [Interesting Application of Binary Searching](#interesting-application-of-binary-searching)
+- [Communication of meaning is achieved through 'words' and 'grammatical structures' alone](#communication-of-meaning-is-achieved-through-words-and-grammatical-structures-alone)
 
 # Digit DP
 
