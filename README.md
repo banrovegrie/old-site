@@ -49,7 +49,7 @@ After all data gets scattered, information is lost, what is known is forgotten b
 - [Algebra](https://banrovegrie.github.io/algebra)
 - [Analysis](https://banrovegrie.github.io/analysis)
 - [Complexity Theory](https://banrovegrie.github.io/complexity-theory)
-- [CP :o](https://banrovegrie.github.io/cp)
+- [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Computer Systems and Organisation :(](https://banrovegrie.github.io/cso)
 - [Data Science](https://banrovegrie.github.io/data-science)
 - [Economics](https://banrovegrie.github.io/economics)
