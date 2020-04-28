@@ -39,6 +39,7 @@ This is a strategy of getting things during Research/Study in general.
 (Connecting the Dots) 
 
 After all data gets scattered, information is lost, what is known is forgotten but wisdom remains.
+Excess of useless knowledge is like anxiety - it is better to be without it.
 ```
 
 # Table of Contents
