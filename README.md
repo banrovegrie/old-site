@@ -28,7 +28,7 @@ How to connect to me?
 
 <img src = "https://lh3.googleusercontent.com/TUnW9a0iHJCwSzL_SW80g23p9u_ep1X03U9CQBoP-kW_HdUgN5XiIXWl6zznA8jgTtS1F134kKp1ixBZvH21Uf2US50FZvF_8AGCPwZDYrsrTlgcMXkZtrlR-bQSt_q3YxyJHPu09A" width="700" height="315" />
 
-### Focus on Understanding and Problem Solving for that is how you exactly get things done.
+### Focus on Understanding, Problem Solving and Creating for that is how you exactly get things done.
 
 ```latex
 This is a strategy of getting things during Research/Study in general.
