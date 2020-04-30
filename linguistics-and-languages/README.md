@@ -21,16 +21,14 @@ fundamental function of language is communication. But that certainly doesn't ma
 
 ## Resources
 
--[https://web.uri.edu/iaics/files/07-Joanna-Radwanska-Williams.pdf](https://web.uri.edu/iaics/files/07-Joanna-Radwanska-Williams.pdf)
+- [https://web.uri.edu/iaics/files/07-Joanna-Radwanska-Williams.pdf](https://web.uri.edu/iaics/files/07-Joanna-Radwanska-Williams.pdf)
 - [https://en.wikipedia.org/wiki/Meaning_(linguistics)](https://en.wikipedia.org/wiki/Meaning_(linguistics))
 - List
 
     ```
     The Langue and Parole Paradox
     Communication of meaning: Form, Substance
-    ```
-
-    ```
+   
     • Meaning within/at word level: 
         ◦ connotative, denotative:
             ▪ Structured vs Indeterminate
@@ -69,5 +67,6 @@ fundamental function of language is communication. But that certainly doesn't ma
       
     • Meaning within/at contexual level, aka, Pragmatics:
         ◦ ... research
-        
+  ```
+  
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
