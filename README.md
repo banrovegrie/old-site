@@ -10,8 +10,8 @@ How to connect to me?
 - Academic E-mail : [alapan.chaudhuri@research.iiit.ac.in](mailto:alapan.chaudhuri@research.iiit.ac.in)
 
 ***Aliases**:*
-1. *Arjo, Arya, Dada*
-2. *banrovegrie (Dāritys Morgho ban Rōvēgrie), alathedarkwiz (cringey yes i know)*
+1. *Arya, Arjo, Dada, the kid*
+2. *banrovegrie (Dāritys Morgho ban Rōvēgrie), alathedarkwiz, aminah_zafar (cringey yes i know)*
 
 ## My Study Notes, Codes and Writings 
 
