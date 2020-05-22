@@ -1,4 +1,6 @@
-# Number Theory
+# [Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
+
+<p style="text-align: right;"> By <em>Alapan Chaudhuri</em></h6>
 
 ## Preliminaries
 
@@ -92,5 +94,3 @@ If $p, q$ are two primes such that $a^p \equiv 1 \ (mod\ q)$ and $a^q \equiv 1 \
 ## Pseudo Primes
 
 If $n|2^n-2$ then $n$ is considered to be a pseudo prime, and then, $N = 2^n - 1$ is a larger pseudo prime, lol.
-
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
