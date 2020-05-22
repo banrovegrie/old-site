@@ -1,7 +1,5 @@
 # Number Theory
 
-<p style="text-align: right;"> By <em>Alapan Chaudhuri</em></h6>
-
 ## Preliminaries
 
 - Well Ordering Principle
