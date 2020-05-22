@@ -1,5 +1,7 @@
-# [notes](https://hackmd.io/@banrovegrie/HJIulvrjI)
+# notes
 <p style="text-align: right;"> By <em>Alapan Chaudhuri</em></h6>
+
+> [*Click here to read*](https://hackmd.io/@banrovegrie/HJIulvrjI)
 
 **Why set this repo?**
 
