@@ -39,6 +39,7 @@ After all data gets scattered, information is lost, what is known is forgotten b
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
+- [Notes in Notion](https://www.notion.so/banrovegrie/3314082755ce41ebb0b5fd26f0e9661b?v=83a3f8f87a1d4641bde403e3ade1b050)
 - [Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
