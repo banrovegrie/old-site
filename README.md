@@ -9,16 +9,9 @@ How to connect to me?
 - Google Account : [ac.ala.arya@gmail.com](mailto:ac.ala.arya@gmail.com)
 - Academic E-mail : [alapan.chaudhuri@research.iiit.ac.in](mailto:alapan.chaudhuri@research.iiit.ac.in)
 
-***Aliases**:*
-1. *Arya, Arjo, Dada, the kid*
-2. *banrovegrie (Dāritys Morgho ban Rōvēgrie), alathedarkwiz, aminah_zafar (cringey yes i know)*
-
-## My Study Notes, Codes and Writings 
-
-- iCloud, OneDrive
-
-- [banrovegrie.github.io](http://banrovegrie.github.io)
-
+***Aliases/handles on different platforms**:*
+1. *Arya, Arjo, Dada*
+2. *banrovegrie, alathedarkwiz, aminah_zafar (cringey yes i know)*
 
 # Problem Solving Heuristics
 
@@ -46,6 +39,7 @@ After all data gets scattered, information is lost, what is known is forgotten b
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
+- [notes](https://github.com/banrovegrie/notes)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
 
