@@ -46,17 +46,8 @@ After all data gets scattered, information is lost, what is known is forgotten b
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
-- [Algebra](https://banrovegrie.github.io/algebra)
-- [Analysis](https://banrovegrie.github.io/analysis)
-- [Complexity Theory](https://banrovegrie.github.io/complexity-theory)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
-- [Computer Systems and Organisation :(](https://banrovegrie.github.io/cso)
-- [Data Science](https://banrovegrie.github.io/data-science)
-- [Economics](https://banrovegrie.github.io/economics)
-- [Electrodynamics](https://banrovegrie.github.io/electrodynamics)
-- [IoT](https://banrovegrie.github.io/iot)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
-- [Number Theory](https://banrovegrie.github.io/number-theory)
 
-### All empty pages are still private :)
+### All empty pages are basically incomplete :)
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
