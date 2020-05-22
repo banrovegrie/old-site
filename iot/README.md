@@ -1,4 +1,4 @@
-# [Fog Computing in Transportation](https://www.notion.so/Fog-Computing-in-Transportation-f3f3c013eaeb426faa14732cdce9ff1a)
+# Fog Computing in Transportation
 
 ## Introduction
 
