@@ -40,7 +40,7 @@ After all data gets scattered, information is lost, what is known is forgotten b
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
 - [Current Interests](https://www.notion.so/banrovegrie/Current-Interests-a173d807524348ae9a7529aae7cabe06)
-- [Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
+- [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
 - [Fog Computing Essay](https://banrovegrie.github.io/iot)
