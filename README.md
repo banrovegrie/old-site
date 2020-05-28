@@ -31,7 +31,7 @@ This is a strategy of getting things during Research/Study in general.
 2. On learning a new idea/trick/topic, make more connections in order to retain.
 (Connecting the Dots) 
 
-After all data gets scattered, information is lost, what is known is forgotten but wisdom remains.
+After all, data gets scattered, information is lost, what's known is forgotten but wisdom remains.
 ```
 
 # Table of Contents
@@ -39,7 +39,7 @@ After all data gets scattered, information is lost, what is known is forgotten b
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
-- [Current Interests](https://www.notion.so/banrovegrie/Current-Interests-a173d807524348ae9a7529aae7cabe06)
+- [Machine Learning](#machine-learning)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
