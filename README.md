@@ -39,11 +39,11 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
-- [Machine Learning](#machine-learning)
+- [Machine Learning](https://banrovegrie.github.io/data-science)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
 - [Fog Computing Essay](https://banrovegrie.github.io/iot)
 
-### All empty pages are basically incomplete :)
+### All empty pages are basically incomplete :) If I get time I will upload more...
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
