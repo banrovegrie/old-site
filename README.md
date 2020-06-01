@@ -9,9 +9,11 @@ How to connect to me?
 - Google Account : [ac.ala.arya@gmail.com](mailto:ac.ala.arya@gmail.com)
 - Academic E-mail : [alapan.chaudhuri@research.iiit.ac.in](mailto:alapan.chaudhuri@research.iiit.ac.in)
 
-***Aliases/handles on different platforms**:*
-1. *Arya, Arjo, Dada*
-2. *banrovegrie, alathedarkwiz, aminah_zafar (cringey yes i know)*
+***Aliases on different platforms**:*
+1. [*Github/banrovegrie*](https://github.com/banrovegrie)
+2. [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
+3. [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo)
+4. [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*Codechef*](https://www.codechef.com/users/alathedarkwiz)
 
 # Problem Solving Heuristics
 
