@@ -33,17 +33,21 @@ This is a strategy of getting things during Research/Study in general.
 After all, data gets scattered, information is lost, what's known is forgotten but wisdom remains.
 ```
 
-- [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
-- [Problem Solving Heuristics](#problem-solving-heuristics)
-- [Work Strategy](#work-strategy)
-- [CP Notebook :o](https://banrovegrie.github.io/cp)
-
 # Table of Contents
-- [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
-- [Python for Machine Learning](https://banrovegrie.github.io/data-science)
-- [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
-- [Language](https://banrovegrie.github.io/linguistics-and-languages)
-- [Fog Computing Essay](https://banrovegrie.github.io/iot)
+
+- General
+  - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
+  - [Problem Solving Heuristics](#problem-solving-heuristics)
+  - [Work Strategy](#work-strategy)
+- CP Stuff
+  - [CP Notebook :o](https://banrovegrie.github.io/cp)
+- Random Stuff
+  - List
+    - [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
+    - [Python for Machine Learning](https://banrovegrie.github.io/data-science)
+    - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
+    - [Language](https://banrovegrie.github.io/linguistics-and-languages)
+    - [Fog Computing Essay](https://banrovegrie.github.io/iot)
 
 ### All empty pages are basically incomplete :) If I get time I will upload more...
 
