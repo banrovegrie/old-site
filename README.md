@@ -40,16 +40,12 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 - [Work Strategy](#work-strategy)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 
-### All empty pages are basically incomplete :)
-
-------------------------------------------------------------------------------------------------------------------------------
 - [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
 - [Python for Machine Learning](https://banrovegrie.github.io/data-science)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
 - [Fog Computing Essay](https://banrovegrie.github.io/iot)
 
-------------------------------------------------------------------------------------------------------------------------------
-### If I get time I will upload more...
+### All empty pages are basically incomplete :) If I get time I will upload more...
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
