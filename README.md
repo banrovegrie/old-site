@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 ### This wiki is my horrible experiment to dump $$\pi$$ % of whatever-i-fancy shit in one readily searchable place.
 
 # Alapan Chaudhuri
