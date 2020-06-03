@@ -40,8 +40,8 @@ $$
 \mu(n) = 
 \begin{cases} 
       1, & n=1 \\
-      0, & p^2|n\ for\ some\ prime\ p  \\
-      (-1)^r, & n=p_1...p_r\ where\ each\ p_i\ is\ a\ distinct\ prime
+      0, & p^2|n,\ p\in primes\\
+      (-1)^r, & n=p_1...p_r,\ \ p_i\in primes\ i.e.\ n\ is\ square-free
 \end{cases}
 $$
 
@@ -76,4 +76,22 @@ F(n)=\sum_{d|n}f(d)
 $$ 
 then $f$ is a multiplicative function as well.
 
-## Other Well-known Number Theoretic Functions
+## The Greatest Integer Function
+
+Cummon guys, we all know what GIF means... (sleep deprivation causes bad jokes).
+
+The Greatest Integer Function, or G.I.F., operates on a real number and returns the largest integer smaller than or equal to the given real. It is represented as $\lfloor x \rfloor$ or $[x]$ where $x\in \mathbb{R}$.
+
+### Theorems on the Greatest Integer Function
+
+- Exponent of the highest power of a prime $p$ that divides $n!$ is $$\sum_{k=1}^{\infty}\lfloor{\frac{n}{p^k}}\rfloor$$
+
+- Legendre formula $$\prod_{p\leq n} p^{\sum_{k=1}^{\infty}\lfloor \frac{n}{p^k} \rfloor}$$
+
+- Proof for integral values of the binomial coefficients $$\sum_{k \geq 1}[\frac{n}{p^k}] \geq \sum_{k \geq 1}[\frac{r}{p^k}] + \sum_{k \geq 1}[\frac{n-r}{p^k}]$$
+
+- Consider $F(n) = \sum_{d|n}f(d)$ then, for any positive integer $N$, $$\sum_{n=1}^{N}F(n) = \sum_{k=1}^{N}f(k)[\frac{N}{k}]$$
+
+- Corollaries with respect to the above :
+    - $\sum_{n=1}^{N}\tau(n) = \sum_{k=1}^{N}[\frac{N}{k}]$
+    - $\sum_{n=1}^{N}\sigma(n) = \sum_{k=1}^{N}n[\frac{N}{k}]$
