@@ -10,7 +10,7 @@ How to connect to me?
 2. Academic E-mail : [*alapan.chaudhuri@research.iiit.ac.in*](mailto:alapan.chaudhuri@research.iiit.ac.in)
 1. [*Github/banrovegrie*](https://github.com/banrovegrie)
 2. [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
-3. [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo), [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*Codechef*](https://www.codechef.com/users/alathedarkwiz)
+3. [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo), [*Codechef*](https://www.codechef.com/users/alathedarkwiz)
 
 # Problem Solving Heuristics
 
@@ -39,13 +39,17 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
+
+### All empty pages are basically incomplete :)
+
 ------------------------------------------------------------------------------------------------------------------------------
 - [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
 - [Python for Machine Learning](https://banrovegrie.github.io/data-science)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
 - [Fog Computing Essay](https://banrovegrie.github.io/iot)
-------------------------------------------------------------------------------------------------------------------------------
 
-### All empty pages are basically incomplete :) If I get time I will upload more...
+------------------------------------------------------------------------------------------------------------------------------
+### If I get time I will upload more...
+
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
