@@ -6,14 +6,11 @@
 
 How to connect to me?
 
-- Google Account : [ac.ala.arya@gmail.com](mailto:ac.ala.arya@gmail.com)
-- Academic E-mail : [alapan.chaudhuri@research.iiit.ac.in](mailto:alapan.chaudhuri@research.iiit.ac.in)
-
-***Aliases on different platforms**:*
+1. Google Account : [*ac.ala.arya@gmail.com*](mailto:ac.ala.arya@gmail.com)
+2. Academic E-mail : [*alapan.chaudhuri@research.iiit.ac.in*](mailto:alapan.chaudhuri@research.iiit.ac.in)
 1. [*Github/banrovegrie*](https://github.com/banrovegrie)
 2. [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
-3. [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo)
-4. [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*Codechef*](https://www.codechef.com/users/alathedarkwiz)
+3. [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo), [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*Codechef*](https://www.codechef.com/users/alathedarkwiz)
 
 # Problem Solving Heuristics
 
@@ -48,6 +45,7 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
 - [Fog Computing Essay](https://banrovegrie.github.io/iot)
+------------------------------------------------------------------------------------------------------------------------------
 
 ### All empty pages are basically incomplete :) If I get time I will upload more...
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
