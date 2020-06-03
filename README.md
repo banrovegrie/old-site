@@ -35,14 +35,12 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 
 # Table of Contents
 
-- General
+- Home
   - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
   - [Problem Solving Heuristics](#problem-solving-heuristics)
   - [Work Strategy](#work-strategy)
-- CP Stuff
   - [CP Notebook :o](https://banrovegrie.github.io/cp)
-- Random Stuff
-  - List
+- Contets
     - [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
     - [Python for Machine Learning](https://banrovegrie.github.io/data-science)
     - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
