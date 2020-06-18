@@ -1,4 +1,4 @@
-### This wiki is my horrible experiment to dump $$\pi$$ % of whatever-i-fancy shit in one readily searchable place. All empty pages are basically incomplete :) If I get time I will upload more...
+### This wiki is my horrible experiment to dump $$\pi$$ % of whatever-i-fancy shit in one readily searchable place.
 
 # Alapan Chaudhuri
 
