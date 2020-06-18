@@ -41,7 +41,7 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
 
-### Repositories
+### Collective Notes
 
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Notes on Linguistics](https://banrovegrie.github.io/linguistics)
