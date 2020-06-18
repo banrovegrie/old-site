@@ -40,7 +40,7 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 - [Work Strategy](#work-strategy)
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
 - [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
-- [Python for Machine Learning](https://banrovegrie.github.io/data-science)
+- [Data Science Prerequisites Notes: Courtesy Zeeshan :)](https://www.notion.so/zshan0notes/Data-science-Notes-92d5fbaf936c4417869f3e04d16a3eb5)
 - [SQL (for Data Science)](https://www.notion.so/banrovegrie/SQL-for-Data-Science-df8f9b54d98e4026b7c72697c0d93c48)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [Language](https://banrovegrie.github.io/linguistics-and-languages)
