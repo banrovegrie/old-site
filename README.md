@@ -1,4 +1,4 @@
-### This wiki is my horrible experiment to dump $$\pi$$ % of whatever-i-fancy shit in one readily searchable place.
+### This wiki is my horrible experiment to dump $$\pi$$ % of whatever-i-fancy shit in one readily searchable place. All empty pages are basically incomplete :) If I get time I will upload more...
 
 # Alapan Chaudhuri
 
@@ -33,19 +33,25 @@ This is a strategy of getting things during Research/Study in general.
 After all, data gets scattered, information is lost, what's known is forgotten but wisdom remains.
 ```
 
-# **Table of Contents**
+# Table of Contents
+
+### General
 
 - [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
 - [Problem Solving Heuristics](#problem-solving-heuristics)
 - [Work Strategy](#work-strategy)
+
+### Repositories
+
 - [CP Notebook :o](https://banrovegrie.github.io/cp)
-- [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
+- [Notes on Linguistics](https://banrovegrie.github.io/linguistics)
 - [Data Science Prerequisites Notes: Courtesy Zeeshan :)](https://www.notion.so/zshan0notes/Data-science-Notes-92d5fbaf936c4417869f3e04d16a3eb5)
+
+### Singular Notes
+
+- [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
 - [SQL (for Data Science)](https://www.notion.so/banrovegrie/SQL-for-Data-Science-df8f9b54d98e4026b7c72697c0d93c48)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
-- [Language](https://banrovegrie.github.io/linguistics-and-languages)
-- [Fog Computing Essay](https://banrovegrie.github.io/iot)
-
-### All empty pages are basically incomplete :) If I get time I will upload more...
+- [Fog Computing Essay](https://banrovegrie.github.io/fog-computing-project)
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
