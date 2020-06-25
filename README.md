@@ -50,7 +50,6 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 ### Singular Notes
 
 - [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
-- [SQL (for Data Science)](https://www.notion.so/banrovegrie/SQL-for-Data-Science-df8f9b54d98e4026b7c72697c0d93c48)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
 - [Fog Computing Essay](https://banrovegrie.github.io/fog-computing-project)
 
