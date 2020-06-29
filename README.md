@@ -1,4 +1,4 @@
-### This wiki is my horrible experiment to dump $$\pi$$ % of whatever-i-fancy shit in one readily searchable place.
+### This wiki is my attempt at dumping $$\pi$$ % of notes and findings in one readily searchable place.
 
 # Alapan Chaudhuri
 
@@ -50,6 +50,7 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 - [NumPy](https://www.notion.so/banrovegrie/NumPy-1e5fcfff383340fab45d533dae27469d)
 - [Introduction to MatPlotLib](https://www.notion.so/banrovegrie/Intro-to-MatPlotLib-b1d0e2d85c234899b03b0e340a8a2e03)
 - [Pandas](https://www.notion.so/banrovegrie/Pandas-4c14ea5f550545cfb035dd44b3287e62)
+- [SQL Introduction](https://www.notion.so/banrovegrie/SQL-for-Data-Science-0b156089dce140d88eb281c9344c4810)
 - [Python for Beginners](https://www.notion.so/banrovegrie/Python-Beginners-f95e46753e04486cb4f033747ea1f2a9)
 - [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
 - [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
