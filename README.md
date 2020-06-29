@@ -41,14 +41,18 @@ After all, data gets scattered, information is lost, what's known is forgotten b
 
 ### Collective Notes
 
-- [CP Notebook :o](https://banrovegrie.github.io/cp)
-- [Notes on Linguistics](https://banrovegrie.github.io/linguistics)
-- [Data Science Prerequisites Notes: Courtesy Zeeshan :)](https://www.notion.so/zshan0notes/Data-science-Notes-92d5fbaf936c4417869f3e04d16a3eb5)
+2. [CP Notebook :o](https://banrovegrie.github.io/cp)
+1. [Notes on Linguistics](https://banrovegrie.github.io/linguistics)
 
 ### Singular Notes
 
-- [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
-- [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
-- [Fog Computing Essay](https://banrovegrie.github.io/fog-computing-project)
+8. [Hypotheses Testing in Python](https://www.notion.so/banrovegrie/Hypotheses-Testing-062e684d7d6849ce9bc725135b66f660)
+7. [NumPy](https://www.notion.so/banrovegrie/NumPy-1e5fcfff383340fab45d533dae27469d)
+6. [Introduction to MatPlotLib](https://www.notion.so/banrovegrie/Intro-to-MatPlotLib-b1d0e2d85c234899b03b0e340a8a2e03)
+5. [Pandas](https://www.notion.so/banrovegrie/Pandas-4c14ea5f550545cfb035dd44b3287e62)
+4. [Python for Beginners](https://www.notion.so/banrovegrie/Python-Beginners-f95e46753e04486cb4f033747ea1f2a9)
+3. [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
+2. [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
+1. [Fog Computing Essay](https://banrovegrie.github.io/fog-computing-project)
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
