@@ -1,4 +1,4 @@
-### This wiki is my attempt at dumping $$\pi$$ % of notes and findings in one readily searchable place.
+### This wiki is my attempt at dumping $$\pi$$ % of my fancies, notes and findings in one readily searchable place.
 
 # Alapan Chaudhuri
 
