@@ -4,13 +4,11 @@
 
 **I am currently a student at the International Institute of Information Technology, Hyderabad - pursuing integrated Masters in Computational Sciences (by Research) with B.Tech in Computer Science and Engineering.**
 
-How to connect to me?
-
-1. Google Account : [*ac.ala.arya@gmail.com*](mailto:ac.ala.arya@gmail.com)
-2. Academic E-mail : [*alapan.chaudhuri@research.iiit.ac.in*](mailto:alapan.chaudhuri@research.iiit.ac.in)
-1. [*Github/banrovegrie*](https://github.com/banrovegrie)
-2. [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
-3. [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo), [*Codechef*](https://www.codechef.com/users/alathedarkwiz)
+- [About Me](https://drive.google.com/file/d/1QeSUXGra-A0pdD0h1bbqK1K1pI28iOyu/view)
+- [*Github/banrovegrie*](https://github.com/banrovegrie)
+- [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
+- [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo)
+- Mail me : [*alapan.chaudhuri@research.iiit.ac.in*](mailto:alapan.chaudhuri@research.iiit.ac.in)
 
 # Problem Solving Heuristics
 
