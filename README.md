@@ -1,4 +1,4 @@
-### This wiki is my attempt at dumping $$\pi$$ % of my fancies, notes and findings in one readily searchable place.
+### This wiki is my attempt at dumping π% of my fancies, notes and findings in one readily searchable place.
 
 # Alapan Chaudhuri
 
@@ -9,51 +9,3 @@
 - [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
 - [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo)
 - Mail me : [*alapan.chaudhuri@research.iiit.ac.in*](mailto:alapan.chaudhuri@research.iiit.ac.in)
-
-# Problem Solving Heuristics
-
-<img src = "https://lh3.googleusercontent.com/zUlDq4Y6djOTYd30M50sCvd2VWP7L-Hk0jfpGKLTw-rRxNUgBsdBifsypThLB6O_fP-inaianKwEaRrZYM8SpclkJL9rIJ6Xg-ype_ynu1jC78wrHShfvhyQuRRkTFeZoI1oAZTsbg" width="600" height="315" />
-
-# Work Strategy
-
-<img src = "https://lh3.googleusercontent.com/TUnW9a0iHJCwSzL_SW80g23p9u_ep1X03U9CQBoP-kW_HdUgN5XiIXWl6zznA8jgTtS1F134kKp1ixBZvH21Uf2US50FZvF_8AGCPwZDYrsrTlgcMXkZtrlR-bQSt_q3YxyJHPu09A" width="700" height="315" />
-
-### Focus on Understanding, Problem Solving and Creating for that is how you exactly get things done.
-
-```latex
-This is a strategy of getting things during Research/Study in general.
-
-1. Don't focus too much in organisation, and certainly donot overindulge yourself in it. 
-(K.I.S.S.)
-2. On learning a new idea/trick/topic, make more connections in order to retain.
-(Connecting the Dots) 
-
-After all, data gets scattered, information is lost, what's known is forgotten but wisdom remains.
-```
-
-# Table of Contents
-
-### General
-
-- [Alapan Chaudhuri, about me :)](#alapan-chaudhuri)
-- [Problem Solving Heuristics](#problem-solving-heuristics)
-- [Work Strategy](#work-strategy)
-
-### Collective Notes
-
-- [CP Notebook :o](https://banrovegrie.github.io/cp)
-- [Notes on Linguistics](https://banrovegrie.github.io/linguistics)
-
-### Singular Notes
-
-- [Hypotheses Testing in Python](https://www.notion.so/banrovegrie/Hypotheses-Testing-062e684d7d6849ce9bc725135b66f660)
-- [NumPy](https://www.notion.so/banrovegrie/NumPy-1e5fcfff383340fab45d533dae27469d)
-- [Introduction to MatPlotLib](https://www.notion.so/banrovegrie/Intro-to-MatPlotLib-b1d0e2d85c234899b03b0e340a8a2e03)
-- [Pandas](https://www.notion.so/banrovegrie/Pandas-4c14ea5f550545cfb035dd44b3287e62)
-- [SQL Introduction](https://www.notion.so/banrovegrie/SQL-for-Data-Science-0b156089dce140d88eb281c9344c4810)
-- [Python for Beginners](https://www.notion.so/banrovegrie/Python-Beginners-f95e46753e04486cb4f033747ea1f2a9)
-- [Number Theoretic Functions](https://hackmd.io/@banrovegrie/H1ZelikhL)
-- [Elementary Number Theory](https://hackmd.io/@banrovegrie/S1PiXFBsU)
-- [Fog Computing Essay](https://banrovegrie.github.io/fog-computing-project)
-
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
