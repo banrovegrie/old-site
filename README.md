@@ -1,4 +1,4 @@
-### This wiki is my attempt at dumping π% of my fancies, notes and findings in one readily searchable place.
+### This wiki was supposed to be my attempt at dumping π% of my stuff in one readily searchable place. It failed horribly :)
 
 # Alapan Chaudhuri
 
