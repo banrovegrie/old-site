@@ -8,4 +8,3 @@
 - [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
 - [*Codeforces*](https://codeforces.com/profile/aminah_zafar), [*kaggle*](https://www.kaggle.com/alapanchaudhuriarjo)
 - Mail me : [*alapan.chaudhuri@research.iiit.ac.in*](mailto:alapan.chaudhuri@research.iiit.ac.in)
-- [*LinkedIn*](https://linkedin.com/banrovegrie)
