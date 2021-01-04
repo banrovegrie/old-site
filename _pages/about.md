@@ -16,8 +16,8 @@ I am a sophomore at IIITH, pursuing B.Tech. in Computer Science and Engineering,
 Random Bulletin
 ---------
 <ul>
-<li><a href="https://codeforces.com/profile/arjo">Codeforces</a>
-<li><a href="https://room333.github.io/">Blog at room333</a>
+<li><a href="https://codeforces.com/profile/arjo">Codeforces</a></li>
+<li><a href="https://room333.github.io/">Blog at room333</a></li>
 </ul>
 
 Contact Me
