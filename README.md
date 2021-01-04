@@ -6,5 +6,4 @@
 
 - [*Github/banrovegrie*](https://github.com/banrovegrie)
 - [*Stackexchange*](https://stackexchange.com/users/11999053/alapan-chaudhuri)
-- [*Codeforces*](https://codeforces.com/profile/aminah_zafar)
 - Mail me : [*alapan.chaudhuri@research.iiit.ac.in*](mailto:alapan.chaudhuri@research.iiit.ac.in)
