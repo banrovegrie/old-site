@@ -13,7 +13,8 @@ A variety of common markup showing how the theme styles them.
 ### Header three
 
 #### Header four
-
+redirect_from:
+  - /wordpress/blog-posts/
 ##### Header five
 
 ###### Header six
