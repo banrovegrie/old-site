@@ -15,10 +15,14 @@ I am a sophomore at IIITH, pursuing B.Tech. in Computer Science and Engineering,
 
 Interests
 ---------
-Currently, I am studying Quantum Computation and Computational Mathematics.
+I have quite a few hobbies ranging from reading fiction to binging Netflix for hours. I absolutely love John William's compositions.
+
+Currently, I am studying Quantum Computation and Computational Mathematics. I am also interested in Theory of Computation and Machine Learning.
 
 Contact
 --------
+My Inbox is open to anyone who wants to discuss an idea, project, problem or just wants to chat (about literally anything under the sun other than Season 8 of Game of Thrones).  
+
 <ul>
 <li>Academic mail: <a href="mailto:alapan.chaudhuri@research.iiit.ac.in">alapan.chaudhuri@research.iiit.ac.in</a></li> 
 <li>General mail: <a href="mailto:ac.ala.arya@gmail.com">ac.ala.arya@gmail.com</a></li>
