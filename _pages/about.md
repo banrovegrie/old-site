@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-About
------
 I am a sophomore at IIITH, pursuing B.Tech. in Computer Science and Engineering, with integrated M.S. by research in Computer Science. I also often go by my nickname Arjo.
 
 > “You can’t cross the sea merely by standing and staring at the water.”
