@@ -13,14 +13,15 @@ I am a sophomore at IIITH, pursuing B.Tech. in Computer Science and Engineering,
 > “You can’t cross the sea merely by standing and staring at the water.”
 >  -- Tagore 
 
-Interests
+Random Bulletin
 ---------
-I have quite a few hobbies ranging from reading fiction to binging Netflix for hours. I absolutely love John William's compositions.
+<ul>
+<li><a href="https://codeforces.com/profile/arjo">Codeforces</a>
+<li><a href="https://room333.github.io/">Blog at room333</a>
+</ul>
 
-Currently, I am studying Quantum Computation and Computational Mathematics. I am also interested in Theory of Computation and Machine Learning.
-
-Contact
---------
+Contact Me
+----------
 My Inbox is open to anyone who wants to discuss an idea, project, problem or just wants to have a chat about literally anything under the sun (other than Season 8 of Game of Thrones).  
 
 <ul>
