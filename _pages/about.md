@@ -21,7 +21,7 @@ Currently, I am studying Quantum Computation and Computational Mathematics. I am
 
 Contact
 --------
-My Inbox is open to anyone who wants to discuss an idea, project, problem or just wants to chat (about literally anything under the sun other than Season 8 of Game of Thrones).  
+My Inbox is open to anyone who wants to discuss an idea, project, problem or just wants to have a chat about literally anything under the sun (other than Season 8 of Game of Thrones).  
 
 <ul>
 <li>Academic mail: <a href="mailto:alapan.chaudhuri@research.iiit.ac.in">alapan.chaudhuri@research.iiit.ac.in</a></li> 
