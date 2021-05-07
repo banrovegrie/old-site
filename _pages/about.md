@@ -22,9 +22,3 @@ My Inbox is open to anyone who wants to discuss an idea, project, problem or jus
 <li>General mail: <a href="mailto:ac.ala.arya@gmail.com">ac.ala.arya@gmail.com</a></li>
 </ul>
 
-Random Bulletin
----------
-<ul>
-<li><a href="https://codeforces.com/profile/arjo">Codeforces</a></li>
-<li><a href="https://room333.github.io/">Blog at room333</a></li>
-</ul>
