@@ -9,7 +9,7 @@ redirect_from:
 
 ### Don't criticize what you can't understand
 
-Don't write what you do not — to at least a certain admissible level —  understand. This reminds me of the line in Bob Dylan's song "don't criticize what you can't understand".
+Don't write what you do not — to at least a certain admissible level —  understand. This reminds me of the line in Bob Dylan's song "don't criticize what you can't understand". $1+0$
 
 ### My ideas from a dialogue between Bob Tarjan and Don Knuth
 
