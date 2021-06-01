@@ -1,9 +1,12 @@
 # main links links
 main:    
         
+  - title: "Journal"
+    url: /journal/
+  
   - title: "Blog Posts"
     url: /blog/
     
   - title: "Resume"
     url: /files/Alapan_Chaudhuri_Resume.pdf
-
+  
