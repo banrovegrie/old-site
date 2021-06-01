@@ -11,6 +11,8 @@ redirect_from:
 
 ---
 
+> It is sad that we get so used to the world that we fail to recognize how bewildering and even unreasonable, at times, everything is.
+
 ## What is Communication?
 
 Today, there a more than $7$ billion people living on this planet. We have surpassed all other species of animals by an incredibly long margin. We have achieved feats that were inconceivable once. We have touched the moon, discovered particles that are infinitesimally small and galaxies that are larger than we can even conceive, we have conquered the high mountains, trekked impassable deserts, scoured the skies and tamed even the raging seas. But one feat that separates us completely from all that came before us - the ability to believe in an imagined reality, to believe in a collective myth and values and this is what has ultimately given shape to modern human society.
@@ -32,15 +34,13 @@ In a remarkable set of experiments, Rosch set out to show that primary color cat
 
 Rosch reasoned that if it was language alone that determined color categorization, then the Dani should have equal difficulty learning new words for colors, no matter whether the color ranges had a primary color at the center or a nonprimary color. 
 
-She then went about studying how Dani speakers would learn new, made-up color terms. One group was taught arbitrary names for eight focal colors, and another group, arbitrary names for eight nonfocal colors (Rosch 1973). The names for focal colors were learned more easily. Dani speakers were also found (like English speakers) to be able to remember focal colors better than nonfocal colors (Heider 1972).
+She then went about studying how Dani speakers would learn new, made-up color terms. One group was taught arbitrary names for eight focal colors, and another group, arbitrary names for eight nonfocal colors (Rosch $1973$). The names for focal colors were learned more easily. Dani speakers were also found (like English speakers) to be able to remember focal colors better than nonfocal colors (Heider $1972$).
 
-In an experiment in which speakers judged color similarity, the Dani were shown to represent colors in memory the same way English speakers do (Heider and Olivier 1972).
+In an experiment in which speakers judged color similarity, the Dani were shown to represent colors in memory the same way English speakers do (Heider and Olivier $1972$).
 
 ## Knowledge
 
-Let's say that Knowledge is "Justified True Belief". But what does it mean to justify something?
-
-This definition results in an infinite regression. This can be solved using ideas of Foundationalism (use of axioms).
+Let's say that Knowledge is "Justified True Belief". But what does it mean to justify something? This definition results in an infinite regression. This can be solved using ideas of Foundationalism (use of axioms).
 
 ## Logic
 
@@ -58,6 +58,6 @@ Explanation: The above statement has two premises. Firstly that, all women are m
 
 An inductive argument is an argument that is intended by the arguer to be strong enough that, if the premises were to be true, then it would be unlikely that the conclusion is false. So, an inductive argument’s success or strength is a matter of degree, unlike with deductive arguments. It is basically a probabilistic answer.
 
-Example: "Every raven in a random sample of 3200 ravens is black. This strongly supports the following conclusion: All ravens are black."
+Example: "Every raven in a random sample of $3200$ ravens is black. This strongly supports the following conclusion: All ravens are black."
 
-Explanation: Since, the sample test size is considerably large, we can safely conclude that it is highly likely that all ravens are black. Here, in the above argument, the premise is constituted of the first statement - "every raven in a random sample of 3200 ravens is black".
+Explanation: Since, the sample test size is considerably large, we can safely conclude that it is highly likely that all ravens are black. Here, in the above argument, the premise is constituted of the first statement - "every raven in a random sample of $3200$ ravens is black".

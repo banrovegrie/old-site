@@ -10,8 +10,7 @@ redirect_from:
 
 I am a undergrad at IIITH, pursuing B.Tech. in Computer Science and Engineering, with integrated M.S. by research in Computer Science. I also often go by my nickname Arjo.
 
-> “You can’t cross the sea merely by standing and staring at the water.”
->  -- Tagore
+> You can’t cross the sea merely by standing and staring at the water.
 
 Contact Me
 ----------
