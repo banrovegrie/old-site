@@ -9,54 +9,55 @@ redirect_from:
 
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-### Don't criticize what you can't understand
+---
 
-Don't write what you do not — to at least a certain admissible level — understand. This reminds me of the line in Bob Dylan's song "don't criticize what you can't understand". $$1+0$$
+## What is Communication?
 
-### My ideas from a dialogue between Bob Tarjan and Don Knuth
+Today, there a more than $7$ billion people living on this planet. We have surpassed all other species of animals by an incredibly long margin. We have achieved feats that were inconceivable once. We have touched the moon, discovered particles that are infinitesimally small and galaxies that are larger than we can even conceive, we have conquered the high mountains, trekked impassable deserts, scoured the skies and tamed even the raging seas. But one feat that separates us completely from all that came before us - the ability to believe in an imagined reality, to believe in a collective myth and values and this is what has ultimately given shape to modern human society.
 
-Well one thing that absolutely blew my mind was Knuth talking about Computer Science from the broad perspective of being a mathematician and scientist. It started with this question posed by Tarjan — Do you (Knuth) consider yourself as a mathematician, a scientist, an engineer a philosopher or an artist?
+The telling of myths and stories allow Homo sapiens to collaborate in large numbers in extremely flexible ways. This separates us from all other animals. And, all this is possible because of the human ability to communicate with extreme efficiency and precision. This ability to communicate efficiently and effectively is what creates scientific and artistic breakthroughs, leads to the establishment of companies, corporations, markets and even nations. It is indeed how we human beings have literally conquered the world. 
 
-Knuth gave a very fine answer. He said that he believes science is that which is so well understood by us humans that we can code it up into a computer. However, very often we find our mind meanders around and stays a few jumps ahead which ultimately depicts itself as art.
+The word communication is derived from the latin word communicare which means to share. "Communication is the act of conveying meanings from one entity or group to another." Language serves the most organised and efficient mode of communication. But it is not the only mode. Visual arts in the form of sculpture, paintings and photography, performance arts in the form of acting and dancing often convey deep emotions that get deeply engraved in our minds, something that even the finest constructed sentences fail to do. Such forms of communication certainly do not rely on words or grammatical structures. 
 
-He also exclaimed how mathematics and computer science are the only domains that exist in the realm on science yet are not directly based of nature and rather belong to worlds designed artificially by us (plug-in computational thinking vs mathematical thinking).
+Much of modern linguistic theory is based on the assumption that the primary and
+fundamental function of language is communication. But that certainly doesn't make language the sole authority or mode over communication.
 
-### On what engineering means
+## Rosch and Whorf's Hypothesis: an  excerpt
 
-Zeeshan mentioned the meaning of the word "engineering" means "cleverness".
+Rosch's early studies were on color. She learned of the Berlin-Kay color research midway through her own research and found that their results meshed with her own work on Dani, a New Guinea language that has only two basic color categories: mili (dark-cool, including black, green, and blue) and mola (light-warm, including white, red, yellow).
 
-### Universe is a Search Problem?
+Berlin and Kay had shown that focal colors had a special status within color categoraies-that of the best example of the category. Rosch found that Dani speakers, when asked for the best exampies of their two color categories, chose focal colors, for example, white, red, or yellow for mola with different speakers making different choices.
 
-Purpose of the universe: is the universe just another parallel process in some kind of interacting parallel processes working on a search problem?
+In a remarkable set of experiments, Rosch set out to show that primary color categories were psychologically real for speakers of Dani, even though they were not named. She set out to challenge one of Whorf's hypotheses, namely, that language determines one's conceptual system. If Whorf were right on this matter, the Dani's two words for colors would determine two and only two conceptual categories of colors. 
 
-### Measure Shoudn't be a target
+Rosch reasoned that if it was language alone that determined color categorization, then the Dani should have equal difficulty learning new words for colors, no matter whether the color ranges had a primary color at the center or a nonprimary color. 
 
-Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
+She then went about studying how Dani speakers would learn new, made-up color terms. One group was taught arbitrary names for eight focal colors, and another group, arbitrary names for eight nonfocal colors (Rosch 1973). The names for focal colors were learned more easily. Dani speakers were also found (like English speakers) to be able to remember focal colors better than nonfocal colors (Heider 1972).
 
-In other words, "when a measure becomes a target, it ceases to be a good measure." Isn't it exactly what happened in MDL Project?
+In an experiment in which speakers judged color similarity, the Dani were shown to represent colors in memory the same way English speakers do (Heider and Olivier 1972).
 
-### On recent non-fiction books I love
+## Knowledge
 
-I fucking love Scott Aaronson's book. Quantum Computing since Democritus falls in my Birth of a Theorem category. I absolutely love them.
+Let's say that Knowledge is "Justified True Belief". But what does it mean to justify something?
 
-Feynman's two autobiographical books, especially "What do you care what other people think" is a amazing motivator.
+This definition results in an infinite regression. This can be solved using ideas of Foundationalism (use of axioms).
 
-I guess I will talk about old reads which changed my perspective, sometime later.
+## Logic
 
-A little off-topic but Lex Fridman's podcast has severely affected my life — in a very good way.
+Truth is a property of a statement which determines whether the given statement is in agreement with reality (to the best of our knowledge). In a given argument, we always talk about the truth value of all premises associated.
 
-### Richard Borcherds interview
+On the other hand, validity is a property of an argument which implies whether or not it is impossible for the given premises to be true and the conclusion, at the same time, to be false. In other words, an argument is valid if and only if truth of its premises guarantees truth of its conclusion. However, it is not required for a valid argument to have premises that are actually true.
 
-Try counter-examples and try proving at the same time, for sure either one will work out.
+Meanwhile, soundness is a property of both an argument along with the given premises (property of a formal system). An argument is said to be sound if and only if it is valid and all given premises are true. Thus, soundness effectively combines both validity and truth. This is best reflected by the fact that, a sound argument is necessarily valid, but a valid argument may not be sound.
 
-Mathematics is discovered. How? If there were another civilization that we come across, we shall share the same mathematical ideas — even though representations and formalisms might be different. Now my question is that — does it mean humans can serve to be "universal conscious machine" because they can do math?
+A deductive argument is an argument that is intended by the arguer to provide a guarantee of the truth of the conclusion provided that the argument’s premises are true. All deductive arguments are either valid or invalid, and either sound or unsound; there is no middle ground, such as being somewhat valid.
 
-There are some mathematicians whose work I could have never discovered for myself — no matter how harder or smarter I worked — Grothendieck is one of them.
+Example: "All women are mortal. My mother is a woman. Therefore, my mother is mortal."
 
-### On Technology
+Explanation: The above statement has two premises. Firstly that, all women are mortal and secondly, that my mother is a woman. The argument is deductive because provided the premises are true, the conclusion is guaranteed, rather than being guaranteed with a probability less than one.
 
-I want to be a Computer Scientist and an Engineer — not just because of my interest but also because I want to fight evil regimes and technology (not just mere ideas) is the greatest weapon against authoritarianism.
+An inductive argument is an argument that is intended by the arguer to be strong enough that, if the premises were to be true, then it would be unlikely that the conclusion is false. So, an inductive argument’s success or strength is a matter of degree, unlike with deductive arguments. It is basically a probabilistic answer.
 
-### On Fiction and Literature
+Example: "Every raven in a random sample of 3200 ravens is black. This strongly supports the following conclusion: All ravens are black."
 
-Good literature helps you build your soul. Literature drives us through the ideas and problems a person is facing by standing on his or her foorsteps and thinking about choices and their effects — choices that you or I may never face directly but does help in thinking clearly about a ton of other choices that we shall come across in life.
+Explanation: Since, the sample test size is considerably large, we can safely conclude that it is highly likely that all ravens are black. Here, in the above argument, the premise is constituted of the first statement - "every raven in a random sample of 3200 ravens is black".
