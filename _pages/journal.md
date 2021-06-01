@@ -9,7 +9,7 @@ redirect_from:
 
 ### Don't criticize what you can't understand
 
-Don't write what you do not — to at least a certain admissible level — understand. This reminds me of the line in Bob Dylan's song "don't criticize what you can't understand".
+Don't write what you do not — to at least a certain admissible level —  understand. This reminds me of the line in Bob Dylan's song "don't criticize what you can't understand".
 
 ### My ideas from a dialogue between Bob Tarjan and Don Knuth
 
@@ -21,7 +21,7 @@ He also exclaimed how mathematics and computer science are the only domains that
 
 ### On what engineering means
 
-Zeeshan mentioned the meaning of the word ****"engineering" means "cleverness".
+Zeeshan mentioned the meaning of the word "engineering" means "cleverness".
 
 ### Universe is a Search Problem?
 
@@ -59,3 +59,4 @@ I want to be a Computer Scientist and an Engineer — not just because of my int
 
 Good literature helps you build your soul. Literature drives us through the ideas and problems a person is facing by standing on his or her foorsteps and thinking about choices and their effects — choices that you or I may never face directly but does help in thinking clearly about a ton of other choices that we shall come across in life.
 
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_CHTML"></script>
