@@ -52,7 +52,7 @@ There are two major differences between Mathematical and Algorithmic Thinking. T
 
 These notions are inherently associated with the idea of implementability, which can be used to put forward the following picture — is computer science implementable mathematics? And if it were so, then computer science is rooted in physics as much as we believe it is rooted in mathematics. After all, it is the nature of our universe and existence which determines what is implementable and what is not.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12bbe961-1cf9-4c4f-80ec-47ea769b637b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12bbe961-1cf9-4c4f-80ec-47ea769b637b/Untitled.png)
+![image](../images/mathcs.png)
 
 Footnote: The more I read about this, the more I can't help thinking about whether Computer Science isn't just a whole new way of understanding Physics.
 
