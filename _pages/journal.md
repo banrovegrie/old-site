@@ -13,7 +13,7 @@ redirect_from:
 
 > It is sad that we get so used to the world that we fail to recognize how bewildering and even unreasonable, at times, everything is.
 
-## A Treatise on Thinking and Problem Solving
+## [A Treatise on Thinking and Problem Solving]()
 ---
 
 Now, to give a preface, let me state this as clearly as possible. I am neither a mathematician nor a computer scientist and nor can I consider myself a philosopher. I am just a young guy with a laptop and a lot of time. However, I indeed love each of those fields, and given that thinking is not a monopoly of the old and experienced — I decided to explore as much as I can into two questions that have been grappling my mind for quite some time.
