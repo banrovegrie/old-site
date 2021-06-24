@@ -14,7 +14,6 @@ redirect_from:
 > It is sad that we get so used to the world that we fail to recognize how bewildering and even unreasonable, at times, everything is.
 
 ## [A Treatise on Thinking and Problem Solving]()
----
 
 Now, to give a preface, let me state this as clearly as possible. I am neither a mathematician nor a computer scientist and nor can I consider myself a philosopher. I am just a young guy with a laptop and a lot of time. However, I indeed love each of those fields, and given that thinking is not a monopoly of the old and experienced — I decided to explore as much as I can into two questions that have been grappling my mind for quite some time.
 
@@ -95,8 +94,7 @@ Footnote: The more I read about this, the more I can't help thinking about wheth
 7. [Solving mathematical problems](https://terrytao.wordpress.com/career-advice/solving-mathematical-problems/) by Tao
 8. [How to write a great research paper](https://www.youtube.com/watch?v=WP-FkUaOcOM)
 
-## What is Communication?
----
+## [What is Communication?]()
 
 Today, there a more than $7$ billion people living on this planet. We have surpassed all other species of animals by an incredibly long margin. We have achieved feats that were inconceivable once. We have touched the moon, discovered particles that are infinitesimally small and galaxies that are larger than we can even conceive, we have conquered the high mountains, trekked impassable deserts, scoured the skies and tamed even the raging seas. But one feat that separates us completely from all that came before us - the ability to believe in an imagined reality, to believe in a collective myth and values and this is what has ultimately given shape to modern human society.
 
@@ -107,8 +105,7 @@ The word communication is derived from the latin word communicare which means to
 Much of modern linguistic theory is based on the assumption that the primary and
 fundamental function of language is communication. But that certainly doesn't make language the sole authority or mode over communication.
 
-## Rosch and Whorf's Hypothesis: an  excerpt
----
+## [Rosch and Whorf's Hypothesis: an  excerpt]()
 
 Rosch's early studies were on color. She learned of the Berlin-Kay color research midway through her own research and found that their results meshed with her own work on Dani, a New Guinea language that has only two basic color categories: mili (dark-cool, including black, green, and blue) and mola (light-warm, including white, red, yellow).
 
@@ -122,13 +119,11 @@ She then went about studying how Dani speakers would learn new, made-up color te
 
 In an experiment in which speakers judged color similarity, the Dani were shown to represent colors in memory the same way English speakers do (Heider and Olivier $1972$).
 
-## Knowledge
----
+## [Knowledge]()
 
 Let's say that Knowledge is "Justified True Belief". But what does it mean to justify something? This definition results in an infinite regression. This can be solved using ideas of Foundationalism (use of axioms).
 
-## Logic
----
+## [Logic]()
 
 Truth is a property of a statement which determines whether the given statement is in agreement with reality (to the best of our knowledge). In a given argument, we always talk about the truth value of all premises associated.
 
