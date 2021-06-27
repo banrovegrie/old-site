@@ -32,8 +32,8 @@ Mathematical Thinking and Algorithmic Thinking have a lot in common. It shall be
 
 Mathematical Thinking involves the skills of modeling a given problem formally and rigorously arguing about the formal statement.
 
-- Here, the point of rigor is not to destroy all intuition; instead, it should be used to eliminate bad intuition while clarifying and elevating good intuition.
-- Even though rigor is merely the instrument of demonstration, just as intuition is the instrument of invention, there is no denying that it alone can provide us with certainty.
+- Here, the <ins>point of rigor</ins> is not to destroy all intuition; instead, it should be used to eliminate bad intuition while clarifying and elevating good intuition.
+- Even though rigor is merely the instrument of demonstration, just as intuition and curiosity are the instruments of invention, there is no denying that it alone can provide us with certainty.
 
 Moreover, in mathematics, there are two cultures involved. They differ based on the following two ideologies.
 
@@ -53,35 +53,43 @@ These notions are inherently associated with the idea of implementability, which
 
 <img src="../images/mathcs.png" width="50%"/>
 
-Footnote: The more I read about this, the more I can't help thinking about whether Computer Science isn't just a whole new way of understanding Physics.
+<ins>Footnote</ins>: The more I read about this, the more I can't help thinking about whether Computer Science isn't just a whole new way of understanding Physics.
 
 ### On Heuristics
 
-- Proofs are Programs: Often, we find that the approaches we make (both mathematical and psychological) while trying to prove some statement or construct an algorithm are similar.
+- <ins>Proofs are Programs</ins>: Often, we find that the approaches we make (both mathematical and psychological) while trying to prove some statement or construct an algorithm are similar.
 
     This became even clearer when I started reading more about the correspondence between proofs, programs, and algebraic structures. Such a trinity allows me to say with certainty that proofs and algorithms are complementary and analogous to a great extent. Furthermore, thinking about proofs and programs in this manner often gives me a clearer perspective while approaching any given problem.
 
-- Wishful Thinking and Modularity: This is basically a modular approach to the idea of constructing an algorithm or proving a theorem. You start off by wishing for simplifications in your problem. You achieve simplifications by breaking it down or transforming it into a simpler problem and try your hand at that.
+- <ins>Wishful Thinking and Modularity</ins>: This is basically a modular approach to the idea of constructing an algorithm or proving a theorem. You start off by wishing for simplifications in your problem. You achieve simplifications by breaking it down or transforming it into a simpler problem and try your hand at that.
 
     Moreover, on a similar note, you might keep stringing lemmas (or functions or data structures) together with speculation that has been cleaned and sharpened with rigor to construct a proof (or algorithm).
 
-- Speculations, Questions and Partial Progress: While solving a problem it is vital to keep changing your perspective. You need to look at it and attack it differently (using different tools with different tricks). And for that, you need your curiosity and patience to keep you going.
+- <ins>Speculations, Questions and Partial Progress</ins>: While solving a problem it is vital to keep changing your perspective. You need to look at it and attack it differently (using different tools with different tricks). For example, try contradictions, then maybe induction, then maybe something else and so on.
 
     Likewise, never hesitate to keep asking questions, no matter how dumb they might seem. Don't take anything you don't really understand for granted! Where's the fun in that?
 
     Also, you need to realize how crucial partial progress is. Failures are often crucial advances. In fact, people should write about their failures and speculations while writing a paper. Because well, if we don't at all have any insight into what made someone come up with an argument or construction, then what is the fricking point at all?
 
-- Grothendieck and Abstraction: "While looking at a problem through different lenses ideally you would want to find the natural world for the problem, express it cohomologically and often the cohomology of that world may solve your problem, like a ripe avocado bursts in your hand."
+- <ins>Grothendieck and Abstraction</ins>: "While looking at a problem through different lenses ideally you would want to find the natural world for the problem, express it cohomologically and often the cohomology of that world may solve your problem, like a ripe avocado bursts in your hand."
 
     Grothendieck was a guy who literally rebuilt algebraic geometry from scratch. His unique skill was to burrow into an area so deeply that its inner patterns on the most abstract level revealed themselves, and solutions to old problems fell out in straightforward ways quite naturally to fit into a larger conceptual framework.
 
+    > From Grothendieck, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The idea is to be able to paint a landscape in which the proof is obvious.
+
     Moreover, in computer science, abstraction is fundamentally how we approach the most exciting problems. Or do you want to write optimizations in binary (a horrible example but you do get it)?
 
-- Formalism and Writing: Formalism is arguably the most important and constant step towards solving any problem. This is something I learned while studying functional programming. Often, the act of describing a problem and stating it formally reveals what you need to solve it.
+- <ins>Formalism and Writing</ins>: Formalism is arguably the most important and constant step towards solving any problem. This is something I learned while studying functional programming. Often, the act of describing a problem and stating it formally reveals what you need to solve it.
 
     And in case you are dealing with an algorithm or a computer system, formalism through programming is literally both the crux and beauty of it.
 
-    Similarly, on a broader note, writing too is hugely essential. In fact, ideally, writing is the primary mechanism for doing research and not just for reporting it.
+    Similarly, on a broader note, writing too is hugely essential. In fact, ideally, it is the primary mechanism for doing research and not just for reporting it.
+
+### Conclusion
+
+Heuristics, as mentioned above, serve as more of a psychological strategy than a tangible cut out path for solving problems. Almost all major problems that lurk in the horizon of human understanding are mainly solved by "knowledge (of your own field and of other fields), experience, patience and hard work".
+
+Furthermore, we don't really understand how a human being thinks. We do have some understanding that our linguistic capabilities serve as the operating system of our minds supporting abstraction other cognitive abilities. However, that being said, there is so much more that we don't understand. But, don't let this lack of understanding reflect any kind of unimportance of the subject -- for if we don't even understand how we think, how could we possibly make machines that can truly think like and for us?
 
 ### References
 
