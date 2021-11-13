@@ -12,7 +12,7 @@ I am a Computer Science student at [IIITH](https://iiit.ac.in), currently workin
 
 > You can’t cross the sea merely by standing and staring at the water.
 
-As a research student, I am interested in Quantum Information, Programming Language Theory and Computational Complexity. I also have broad interests in machine learning and applied mathematics.
+As a research student, I am interested in Quantum Information, Programming Languages (formal methods) and Machine Learning (statistical). I also have broad interests in Computational Complexity (and algorithm design).
 
 Contact Me
 ----------
