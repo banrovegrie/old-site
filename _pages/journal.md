@@ -61,7 +61,7 @@ These notions are inherently associated with the idea of implementability, which
 
     This became even clearer when I started reading more about the correspondence between proofs, programs, and algebraic structures. Such a trinity allows me to say with certainty that proofs and algorithms are complementary and analogous to a great extent. Furthermore, thinking about proofs and programs in this manner often gives me a clearer perspective while approaching any given problem.
 
-- <ins>Wishful Thinking and Modularity</ins>: This is basically a modular approach to the idea of constructing an algorithm or proving a theorem. You start off by wishing for simplifications in your problem. You achieve simplifications by breaking it down or transforming it into a simpler problem and try your hand at that.
+- <ins>Wishful Thinking, Modularity and First Principles</ins>: This is basically a modular approach to the idea of constructing an algorithm or proving a theorem. You start off by wishing for simplifications in your problem. You achieve simplifications by breaking it down or transforming it into a simpler problem and try your hand at that.
 
     Moreover, on a similar note, you might keep stringing lemmas (or functions or data structures) together with speculation that has been cleaned and sharpened with rigor to construct a proof (or algorithm).
 
