@@ -57,7 +57,7 @@ data = get_data(
 for i in data:
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
-    print(f"<li><a href={url} target='_blank' target='_blank'><span class='centered'>{name}</a></li>")
+    print(f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
 print(f"</ol>")
 print()
 
