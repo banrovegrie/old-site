@@ -26,11 +26,13 @@ print(f"<li><a href='../files/Entanglement_and_non_Markovianity_of_Quantum_Evolu
 print(f"</ul>")
 print()
 
+
 def extract_time(json):
     try:
         return (json['created_time'])
     except KeyError:
         return 0
+
 
 def get_data(url):
     payload = {"page_size": 100}
@@ -48,6 +50,7 @@ def get_data(url):
     data.sort(key=extract_time)
     return data
 
+
 counter = 0
 
 # Mathematics
@@ -59,7 +62,8 @@ for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
-    print(f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+    print(
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
 print(f"</ol>")
 print()
 
@@ -72,7 +76,8 @@ for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
-    print(f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+    print(
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
 print(f"</ol>")
 print()
 
@@ -85,7 +90,8 @@ for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
-    print(f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+    print(
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
 print(f"</ol>")
 print()
 
@@ -98,9 +104,10 @@ for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
-    print(f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+    print(
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
 print(f"</ol>")
 print()
 
 print(f"<br>")
-print(f"<p> Total: {counter}</p>")
+print(f"<p>Total of <em>{counter}</em> entries has been recorded.</p>")
