@@ -7,7 +7,7 @@ import requests
 print(f"---")
 print(f"layout: archive")
 print(f"permalink: /blog/")
-print(f"title: \"Blog Posts\"")
+print(f'title: "Blog Posts"')
 print(f"author_profile: true")
 print(f"redirect_from:")
 print(f"---")
@@ -18,18 +18,31 @@ print()
 # Essays
 print(f"<h2>Essays</h2>")
 print(f"<ul>")
-print(f"<li><a href='../pages/Games and Computational Complexity 0d8fa9beb82948efb8aa325720525ddd.html' target='_blank'><span class='centered'>Games and Computational Complexity</a></li>")
-print(f"<li><a href='../files/Ten_Commandments.pdf' target='_blank'><span class='centered'>Ten Commandments: Impossible Operations in Quantum Mechanics</a></li>")
-print(f"<li><a href='../files/PIR_Intro.pdf' target='_blank'><span class='centered'>Introductory Survery for Quantum Private Information Retrieval</a></li>")
-print(f"<li><a href='../files/Query_Complexity.pdf' target='_blank'><span class='centered'>Query Complexity</a></li>")
-print(f"<li><a href='../files/Entanglement_and_non_Markovianity_of_Quantum_Evolutions.pdf' target='_blank'><span class='centered'>Entanglement and Quantum non-Markovianity</a></li>")
+print(
+    f"<li><a href='../pages/Games and Computational Complexity 0d8fa9beb82948efb8aa325720525ddd.html' target='_blank'><span class='centered'>Games and Computational Complexity</a></li>"
+)
+print(
+    f"<li><a href='../files/Ten_Commandments.pdf' target='_blank'><span class='centered'>Ten Commandments: Impossible Operations in Quantum Mechanics</a></li>"
+)
+print(
+    f"<li><a href='../files/PIR_Intro.pdf' target='_blank'><span class='centered'>Introductory Survery for Quantum Private Information Retrieval</a></li>"
+)
+print(
+    f"<li><a href='../files/Query_Complexity.pdf' target='_blank'><span class='centered'>Query Complexity</a></li>"
+)
+print(
+    f"<li><a href='../files/Entanglement_and_non_Markovianity_of_Quantum_Evolutions.pdf' target='_blank'><span class='centered'>Entanglement and Quantum non-Markovianity</a></li>"
+)
+print(
+    f"<li><a href='../files/Fast_Hamiltonian_Simulation.pdf' target='_blank'><span class='centered'>Fast Hamiltonian Simulation</a></li>"
+)
 print(f"</ul>")
 print()
 
 
 def extract_time(json):
     try:
-        return (json['created_time'])
+        return json["created_time"]
     except KeyError:
         return 0
 
@@ -40,7 +53,7 @@ def get_data(url):
         "Accept": "application/json",
         "Notion-Version": "2021-08-16",
         "Content-Type": "application/json",
-        "Authorization": "Bearer secret_F5x49bLQ1bDLgN9EhihvNJrx8WsKoGo4DR9cKcD6vJG"
+        "Authorization": "Bearer secret_F5x49bLQ1bDLgN9EhihvNJrx8WsKoGo4DR9cKcD6vJG",
     }
 
     data = requests.request("POST", url, json=payload, headers=headers)
@@ -57,13 +70,15 @@ counter = 0
 print(f"<h2>Mathematics</h2>")
 print(f"<ol>")
 data = get_data(
-    "https://api.notion.com/v1/databases/fde4d184234e4374a15402e48d9c41ce/query")
+    "https://api.notion.com/v1/databases/fde4d184234e4374a15402e48d9c41ce/query"
+)
 for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
     print(
-        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>"
+    )
 print(f"</ol>")
 print()
 
@@ -71,13 +86,15 @@ print()
 print(f"<h2>Computation and Information</h2>")
 print(f"<ol>")
 data = get_data(
-    "https://api.notion.com/v1/databases/a2456a6ca26c492c9bda36ea66bf8153/query")
+    "https://api.notion.com/v1/databases/a2456a6ca26c492c9bda36ea66bf8153/query"
+)
 for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
     print(
-        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>"
+    )
 print(f"</ol>")
 print()
 
@@ -85,13 +102,15 @@ print()
 print(f"<h2>Algorithms and Machine Learning</h2>")
 print(f"<ol>")
 data = get_data(
-    "https://api.notion.com/v1/databases/1105bec026cb4f6a950d785d42efebef/query")
+    "https://api.notion.com/v1/databases/1105bec026cb4f6a950d785d42efebef/query"
+)
 for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
     print(
-        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>"
+    )
 print(f"</ol>")
 print()
 
@@ -99,13 +118,15 @@ print()
 print(f"<h2>Systems</h2>")
 print(f"<ol>")
 data = get_data(
-    "https://api.notion.com/v1/databases/a7e66f76f8a144c58017f37955029288/query")
+    "https://api.notion.com/v1/databases/a7e66f76f8a144c58017f37955029288/query"
+)
 for i in data:
     counter += 1
     url = i["url"].replace("www.notion.so", "banrovegrie.notion.site")
     name = i["properties"]["Name"]["title"][0]["plain_text"]
     print(
-        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>")
+        f"<li><a href={url} target='_blank'><span class='centered'>{name}</a></li>"
+    )
 print(f"</ol>")
 print()
 
