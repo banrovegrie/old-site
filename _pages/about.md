@@ -12,7 +12,7 @@ I am a Computer Science student at [IIITH](https://iiit.ac.in), currently workin
 
 > You can’t cross the sea merely by standing and staring at the water.
 
-As a research student, I am interested in quantum computing, algorithms and optimisation, programming language theory as well as quantative finance.
+As a research student, I am interested in quantum computing, machine learning, programming language theory and quantitative finance.
 
 Contact Me
 ----------
