@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Computer Science student at [IIITH](https://iiit.ac.in), currently working as an undergraduate researcher. I am often found confused or making plans that I never stick to owing to my addiction of doing random things at random times. I also often go by my nickname Arjo and have aspirations of doing stand-up.
+I am a computer science undergraduate at [IIITH](https://iiit.ac.in), advised by Prof. Shantanav Chakraborty and Prof Indranil Chakrabarty. As a research student I am interested in quantum computing, machine learning, programming language theory and quantitative finance. Also, I often go by my nickname Arjo and have aspirations in start-up, storytelling and stand-up.
 
-> You can’t cross the sea merely by standing and staring at the water.
+> You can’t cross the sea merely by standing and staring at the water. (Tagore)
 
-As a research student, I am interested in quantum computing, machine learning, programming language theory and quantitative finance.
+Everyone has demons. Mine are anxiety, and inability to plan out my day or choose when to focus on what. In between mindbumbingly binging Netflix and procrastinating about working out, I try to catch up on reading fiction, history or philosophy.
 
 Contact Me
 ----------
