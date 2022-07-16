@@ -59,31 +59,25 @@ These notions are inherently associated with the idea of implementability, which
 
 - <ins>Proofs are Programs</ins>: Often, we find that the approaches we make (both mathematical and psychological) while trying to prove some statement or construct an algorithm are similar.
 
-    This became even clearer when I started reading more about the correspondence between proofs, programs, and algebraic structures. Such a trinity allows me to say with certainty that proofs and algorithms are complementary and analogous to a great extent. Furthermore, thinking about proofs and programs in this manner often gives me a clearer perspective while approaching any given problem.
+    This becomes clearer when you started reading more about the correspondence between proofs, programs, and algebraic structures. Such a trinity allows us to say with certainty that proofs and algorithms are complementary and analogous to a great extent. Furthermore, thinking about proofs and programs in this manner often gives me a clearer perspective while approaching any given problem.
 
-- <ins>Wishful Thinking, Modularity and First Principles</ins>: This is basically a modular approach to the idea of constructing an algorithm or proving a theorem. You start off by wishing for simplifications in your problem. You achieve simplifications by breaking it down or transforming it into a simpler problem and try your hand at that.
+- <ins>Abstraction and Modularity</ins>: The set of ideas I hope to entail here also go by several other names, like, wishful thinking and thinking from first principles. However, the main idea is following a modular approach while constructing an algorithm or proving a theorem. 
 
-    Moreover, on a similar note, you might keep stringing lemmas (or functions or data structures) together with speculation that has been cleaned and sharpened with rigor to construct a proof (or algorithm).
+    You can start off by dividing you problem in layers of chunks and while solving for a specific chunk, consider everything else as a blackbox. You can further hope to simplify each chunk or a set of chunks by reducing it to another problem or wishing off several constraints and trying your hand at that.When dealing with implementation jobs, then this methodology is also referred to as the top-down approach, albeit with some more caveats sprinkled all-over.
 
-- <ins>Speculations, Questions and Partial Progress</ins>: While solving a problem it is vital to keep changing your perspective. You need to look at it and attack it differently (using different tools with different tricks). For example, try contradictions, then maybe induction, then maybe something else and so on.
+    On a similar note, it is worth remembering that while constructing any mathematical proof, you ought to try stringing lemmas together, along with speculation that has been cleaned and sharpened with rigor.
+
+- <ins>Questions and Perspective</ins>: When solving a problem it is vital to keep changing your perspective. You need to look at it and attack it differently (using different tools with different tricks). For example, try contradictions, then maybe induction, then maybe something else and so on.
+
+    > While looking at a problem through different lenses ideally you would want to find the natural world for the problem, express it cohomologically and often the cohomology of that world may solve your problem, like a ripe avocado bursts in your hand. (Grothendieck)
 
     Likewise, never hesitate to keep asking questions, no matter how dumb they might seem. Don't take anything you don't really understand for granted! Where's the fun in that?
 
     Also, you need to realize how crucial partial progress is. Failures are often crucial advances. In fact, people should write about their failures and speculations while writing a paper. Because well, if we don't at all have any insight into what made someone come up with an argument or construction, then what is the fricking point at all?
 
-- <ins>Grothendieck and Abstraction</ins>: "While looking at a problem through different lenses ideally you would want to find the natural world for the problem, express it cohomologically and often the cohomology of that world may solve your problem, like a ripe avocado bursts in your hand."
-
-    Grothendieck was a guy who literally rebuilt algebraic geometry from scratch. His unique skill was to burrow into an area so deeply that its inner patterns on the most abstract level revealed themselves, and solutions to old problems fell out in straightforward ways quite naturally to fit into a larger conceptual framework.
-
-    > From Grothendieck, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The idea is to be able to paint a landscape in which the proof is obvious.
-
-    Moreover, in computer science, abstraction is fundamentally how we approach the most exciting problems. Or do you want to write optimizations in binary (a horrible example but you do get it)?
-
 - <ins>Formalism and Writing</ins>: Formalism is arguably the most important and constant step towards solving any problem. This is something I learned while studying functional programming. Often, the act of describing a problem and stating it formally reveals what you need to solve it.
 
-    And in case you are dealing with an algorithm or a computer system, formalism through programming is literally both the crux and beauty of it.
-
-    Similarly, on a broader note, writing too is hugely essential. In fact, ideally, it is the primary mechanism for doing research and not just for reporting it.
+    And in case you are dealing with an algorithm or a computer system, formalism through programming is literally both the crux and beauty of it. Similarly, on a broader note, writing too is hugely essential. In fact, ideally, it should be the primary mechanism for doing research and not just for reporting it.
 
 ### Conclusion
 
