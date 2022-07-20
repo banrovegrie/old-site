@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "About"
 excerpt:
 author_profile: true
 redirect_from: 
@@ -12,14 +12,7 @@ I am a computer science undergraduate at [IIITH](https://iiit.ac.in), advised by
 
 > You can’t cross the sea merely by standing and staring at the water. (Tagore)
 
-Everyone has demons. Mine are anxiety, and inability to plan out my day or choose when to focus on what. In between mindbumbingly binging Netflix and procrastinating about working out, I try to catch up on reading fiction, history or philosophy.
+Angels and Demons
+-----------------
 
-Contact Me
-----------
-My inbox is open to anyone who wants to chat about literally anything under the sun (other than Season 8 of Game of Thrones and Dota2).  
-
-<ul>
-<li>Academic mail: <a href="mailto:alapan.chaudhuri@research.iiit.ac.in">alapan.chaudhuri@research.iiit.ac.in</a></li>
-<li>General mail: <a href="mailto:ac.ala.arya@gmail.com">ac.ala.arya@gmail.com</a></li>
-</ul>
-
+Everyone has demons. Mine are anxiety and inability to regulate my attention. But this has some perks too and being a jack of many trades is one. In between binging Netflix and backstabbing in Valorant, I mostly sketch, read fiction or solve puzzles. I also love thinking and reading about politics, history and philosophy. Programming is fun too; especially because it's a sweet mix of representing your ideas while building atop them. 
