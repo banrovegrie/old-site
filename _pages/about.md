@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a computer science undergraduate at [IIITH](https://iiit.ac.in), advised by Prof. Shantanav Chakraborty and Prof Indranil Chakrabarty. As a research student I am interested in quantum computing, machine learning, programming language theory and quantitative finance. Also, I often go by my nickname Arjo and have aspirations in start-up, storytelling and stand-up.
+I am a computer science undergraduate at [IIITH](https://iiit.ac.in), advised by Prof. Shantanav Chakraborty and Prof Indranil Chakrabarty. As a research student I am interested in quantum information, machine learning, programming language theory and computational biology. Also, I often go by my nickname Arjo and have aspirations in start-up, storytelling and stand-up.
 
 > You can’t cross the sea merely by standing and staring at the water. (Tagore)
 
