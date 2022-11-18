@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a computer science undergraduate at [IIITH](https://iiit.ac.in), advised by Prof. Shantanav Chakraborty and Prof. Indranil Chakrabarty. As a research student I am interested in <ins>Algorithm Design $\cap$ Mathematics</ins>. This intersection includes areas like quantum computing, algorithm design, programming language theory and computational economics. Also, I often go by my nickname Arjo and can be found doing stand-ups when bored.
+I am a computer science undergraduate at [IIITH](https://iiit.ac.in), advised by Prof. Shantanav Chakraborty and Prof. Indranil Chakrabarty. As a research student I am interested in Algorithms $\cap$ Mathematics. This intersection includes areas like quantum computing, algorithm design, programming language theory and computational economics. Also, I often go by my nickname [Arjo](https://banrovegrie.github.io/) and can be found doing stand-ups when bored.
 
 > You can’t cross the sea merely by standing and staring at the water. (Tagore)
 
