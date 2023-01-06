@@ -1,9 +1,12 @@
-This wiki was supposed to be my attempt at dumping π% of my stuff in one readily searchable place. Now I have no idea what the hell it is :)
+# website-template
 
-## Alapan Chaudhuri
+Template website for portfolio and blog publishing from md files.
 
-I am currently a student at the International Institute of Information Technology, Hyderabad - pursuing integrated Masters in Computational Sciences (by Research) with B.Tech in Computer Science and Engineering.
+- Specify the category using: `categories: [<INSERT-CATEGORY>]`.
 
-- [Github/banrovegrie](https://github.com/banrovegrie)
-- [Stackexchange](https://stackexchange.com/users/11999053/alapan-chaudhuri)
-- Mail me : [alapan.chaudhuri@research.iiit.ac.in](mailto:alapan.chaudhuri@research.iiit.ac.in)
+
+## TODO
+
+1. [ ] Add section for project and write template for UI.
+1. [ ] Make a `research` layout.
+1. [ ] Change the name of sections to link to generic posts. 
