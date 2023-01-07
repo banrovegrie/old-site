@@ -1,0 +1,628 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Codeforces Ladders List</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="f0a3b668-027d-4e58-946d-8ddc57691c52" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/woodcuts_2.jpg" style="object-position:center 19.999999999999996%"/><h1 class="page-title">Codeforces Ladders List</h1><table class="properties"><tbody><tr class="property-row property-row-created_time"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesCreatedAt"><path d="M6.98643729,14.0000972 C5.19579566,14.0000972 3.40419152,13.3106896 2.04245843,11.9323606 C-0.681017475,9.21200555 -0.680780251,4.76029539 2.04293482,2.04012507 C4.76664406,-0.68004331 9.22427509,-0.68004331 11.9480135,2.04013479 C13.272481,3.36277455 14,5.1330091 14,6.99552762 C14,8.87640182 13.2721894,10.6285043 11.9480135,11.9509302 C10.5679344,13.3105924 8.77756503,14.0000972 6.98643729,14.0000972 Z M10.2705296,7.00913883 L10.2705296,8.46099754 L10.2705296,8.65543362 L10.076181,8.65543362 L8.6543739,8.65543362 L5.72059514,8.65543362 L5.52619796,8.65543362 L5.52619796,8.46099754 L5.52619796,5.52541044 L5.52619796,3.37946773 L5.52619796,3.18502193 L5.72059514,3.18502193 L7.17253164,3.18502193 L7.36692883,3.18502193 L7.36692883,3.37946773 L7.36692883,6.81467358 L10.076181,6.81467358 L10.2705296,6.81467358 L10.2705296,7.00913883 Z M12.1601539,6.99552762 C12.1601539,5.61697497 11.6190112,4.32597154 10.6393933,3.34769528 C8.63253764,1.34336744 5.35197452,1.34061603 3.34153136,3.33944106 C3.33868273,3.34219247 3.33607716,3.34494388 3.33322852,3.34769528 C1.32397148,5.35459953 1.32372842,8.63641682 3.33322852,10.6433794 C5.34295224,12.6504489 8.62968901,12.6504489 10.6393933,10.6433794 C11.6190112,9.66506426 12.1601539,8.37408027 12.1601539,6.99552762 Z"></path></svg></span>Created</th><td><time>@Nov 28, 2020 12:22 PM</time></td></tr><tr class="property-row property-row-multi_select"><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesMultipleSelect"><path d="M4,3 C4,2.447715 4.447715,2 5,2 L12,2 C12.5523,2 13,2.447716 13,3 C13,3.55228 12.5523,4 12,4 L5,4 C4.447715,4 4,3.55228 4,3 Z M4,7 C4,6.447715 4.447715,6 5,6 L12,6 C12.5523,6 13,6.447716 13,7 C13,7.55228 12.5523,8 12,8 L5,8 C4.447715,8 4,7.55228 4,7 Z M4,11 C4,10.447715 4.447715,10 5,10 L12,10 C12.5523,10 13,10.447716 13,11 C13,11.55228 12.5523,12 12,12 L5,12 C4.447715,12 4,11.55228 4,11 Z M2,4 C1.44771525,4 1,3.55228475 1,3 C1,2.44771525 1.44771525,2 2,2 C2.55228475,2 3,2.44771525 3,3 C3,3.55228475 2.55228475,4 2,4 Z M2,8 C1.44771525,8 1,7.55228475 1,7 C1,6.44771525 1.44771525,6 2,6 C2.55228475,6 3,6.44771525 3,7 C3,7.55228475 2.55228475,8 2,8 Z M2,12 C1.44771525,12 1,11.5522847 1,11 C1,10.4477153 1.44771525,10 2,10 C2.55228475,10 3,10.4477153 3,11 C3,11.5522847 2.55228475,12 2,12 Z"></path></svg></span>Tags</th><td></td></tr></tbody></table></header><div class="page-body"><ul id="d64e51c5-8650-4092-87b4-30cc3f14c4c7" class="toggle"><li><details open=""><summary>Codeforces 1500 ladder</summary><ul id="8caca426-fde8-41f4-972c-9ecd489bc9b3" class="bulleted-list"><li><del><a href="https://codeforces.com/problemset/problem/1110/C">https://codeforces.com/problemset/problem/1110/C</a></del></li></ul><ul id="aedd7f72-9925-42a8-8edb-606bc1eb0731" class="bulleted-list"><li><del><a href="https://codeforces.com/problemset/problem/887/C">https://codeforces.com/problemset/problem/887/C</a></del></li></ul><ul id="3c111175-8337-4a0a-9e87-4c23c14d701d" class="bulleted-list"><li><del><a href="https://codeforces.com/problemset/problem/1105/C">https://codeforces.com/problemset/problem/1105/C</a></del></li></ul><ul id="71840c04-97a3-465d-bf31-140683696ace" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1084/C">https://codeforces.com/problemset/problem/1084/C</a></li></ul><ul id="32ba239c-3c4e-40bc-b481-ba253ed5b335" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/978/D">https://codeforces.com/problemset/problem/978/D</a></li></ul><ul id="8d493041-2b18-42c6-9f1f-b06b34d1b79e" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1151/D">https://codeforces.com/problemset/problem/1151/D</a></li></ul><ul id="81ff2002-886b-4156-bc32-f1f95cdad70f" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1296/D">https://codeforces.com/problemset/problem/1296/D</a></li></ul><ul id="365a9020-efeb-47d5-a537-e14abe752816" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1283/C">https://codeforces.com/problemset/problem/1283/C</a></li></ul><ul id="99b21e84-c606-4c6c-aa4f-50d9f211a71d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1283/C">https://codeforces.com/problemset/problem/1283/C</a></li></ul><ul id="76619454-c773-4f18-aebf-fd5bf92f4499" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1283/C">https://codeforces.com/problemset/problem/1283/C</a></li></ul><ul id="6751249d-a258-4790-b2fb-e31b13b26744" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1278/B">https://codeforces.com/problemset/problem/1278/B</a></li></ul><ul id="e6dc745b-d866-4507-9558-82431fc0c602" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1269/B">https://codeforces.com/problemset/problem/1269/B</a></li></ul><ul id="968a57bf-7cba-4a16-99ff-209a2ff7dd15" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1253/C">https://codeforces.com/problemset/problem/1253/C</a></li></ul><ul id="c7c75048-9ebf-4e55-ad27-310245f759a5" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1301/B">https://codeforces.com/problemset/problem/1301/B</a></li></ul><ul id="5c151e75-1297-41a8-9567-a996007fcd35" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1136/C">https://codeforces.com/problemset/problem/1136/C</a></li></ul><ul id="de47a360-fed7-42e8-a349-431862d87fa7" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1228/C">https://codeforces.com/problemset/problem/1228/C</a></li></ul><ul id="31c7dbb0-a126-4bcb-a05e-c7586caa6224" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/891/A">https://codeforces.com/problemset/problem/891/A</a></li></ul><ul id="ddd13e8c-c5d6-4b37-9f2d-71ad231a972c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1089/G">https://codeforces.com/problemset/problem/1089/G</a></li></ul><ul id="e5e5f577-d5f6-451f-bc56-60e0de45bd48" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/913/C">https://codeforces.com/problemset/problem/913/C</a></li></ul></details></li></ul><ul id="1ef12ed0-9505-4795-aa9d-18b8739b33a1" class="toggle"><li><details open=""><summary>Codeforces 1600 ladder</summary><ul id="2e940e1d-1c51-48f0-bb34-808b61dbf151" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1255/C">https://codeforces.com/problemset/problem/1255/C</a></li></ul><ul id="9a4ede93-e238-47e0-adae-26d3325bfb02" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1238/C">https://codeforces.com/problemset/problem/1238/C</a></li></ul><ul id="f2828dd5-421d-4b07-a8f6-702e84d32898" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1228/C">https://codeforces.com/problemset/problem/1225/C</a></li></ul><ul id="4a0006e6-e95d-45dd-a98c-f50d62bf5a9d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1217/B">https://codeforces.com/problemset/problem/1217/B</a></li></ul><ul id="50fcc87a-c924-405c-a492-48a5dc7ccbdd" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1017/C">https://codeforces.com/problemset/problem/1017/C</a></li></ul><ul id="d2b029a1-8149-4998-85ee-b0f06e8dcda0" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1006/E">https://codeforces.com/problemset/problem/1006/E</a></li></ul><ul id="991a53e5-b2c4-49af-8df3-e6e651db3ce9" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/986/A">https://codeforces.com/problemset/problem/986/A</a></li></ul><ul id="ea757264-f4b7-40a5-a3c9-f90711ab9b7c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1062/C">https://codeforces.com/problemset/problem/1062/C</a></li></ul><ul id="cb2b539d-fefe-4f86-b55b-f7dc5c12b0ee" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1056/D">https://codeforces.com/problemset/problem/1056/D</a></li></ul><ul id="d4125bfc-ae3d-4585-97c1-88049b30a4f5" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/888/D">https://codeforces.com/problemset/problem/888/D</a></li></ul><ul id="bbf917f4-ccca-4b29-947c-ba695b033ee2" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1070/H">https://codeforces.com/problemset/problem/1070/H</a></li></ul><ul id="5c7a0078-1efe-4cb4-b287-b59ab17126c9" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1151/B">https://codeforces.com/problemset/problem/1151/B</a></li></ul><ul id="3f3eb8a0-02fd-45ee-a07e-e2458b9f6845" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1165/D">https://codeforces.com/problemset/problem/1165/D</a></li></ul><ul id="6906aaae-ee4a-4d9f-8707-a5dff4d1dd9c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/979/C">https://codeforces.com/problemset/problem/979/C</a></li></ul><ul id="5b0da9bd-55ef-490c-b19d-babe02ca4be7" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/954/D">https://codeforces.com/problemset/problem/954/D</a></li></ul><ul id="e67e3306-b3ef-49a6-b92e-cc9805c50712" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1209/C">https://codeforces.com/problemset/problem/1209/C</a></li></ul><ul id="e70b2ea2-9f2c-44ae-9c3d-f9641164e722" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1102/D">https://codeforces.com/problemset/problem/1102/D</a></li></ul><ul id="e5547cae-b053-4292-9d86-b860887d2173" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1175/B">https://codeforces.com/problemset/problem/1175/B</a></li></ul><ul id="7a35d8ad-c675-4741-bd8d-0f5d6a9984a8" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1081/C">https://codeforces.com/problemset/problem/1081/C</a></li></ul><ul id="6459abfb-9d6f-48fd-acad-23353f41a22e" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1109/A">https://codeforces.com/problemset/problem/1109/A</a></li></ul><ul id="c03ff15f-8021-467c-ae9f-ed1452bc1e1d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1036/D">https://codeforces.com/problemset/problem/1036/D</a></li></ul></details></li></ul><ul id="cc416a33-66d1-497c-8b11-4ccc3a5cad03" class="toggle"><li><details open=""><summary>Codeforces 1700 ladder</summary><ul id="43ebea6b-7fbc-4505-b030-0c6d009d65d6" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1333/C">https://codeforces.com/problemset/problem/1333/C</a></li></ul><ul id="ce2e2630-164a-4641-8955-4e6e09e86670" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1316/C">https://codeforces.com/problemset/problem/1316/C</a></li></ul><ul id="79193b65-413b-4027-a781-e92d7d49b694" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1313/B">https://codeforces.com/problemset/problem/1313/B</a></li></ul><ul id="854de90b-cc45-4d9e-a5cd-02f74cf6e99d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1312/D">https://codeforces.com/problemset/problem/1312/D</a></li></ul><ul id="d3122a3e-5ac6-48b7-943c-b08088d64ace" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1310/A">https://codeforces.com/problemset/problem/1310/A</a></li></ul><ul id="2905afc6-3bb8-4bc6-8d6f-9de01062b955" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1286/A">https://codeforces.com/problemset/problem/1286/A</a></li></ul><ul id="be5094bb-bee9-4a03-bf24-cabebaf98548" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1257/D">https://codeforces.com/problemset/problem/1257/D</a></li></ul><ul id="dc175725-88f1-41c4-8f2e-1c4701f5b634" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1249/E">https://codeforces.com/problemset/problem/1249/E</a></li></ul><ul id="3539fb71-0b98-4fb5-9be6-42f91638b830" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1239/A">https://codeforces.com/problemset/problem/1239/A</a></li></ul><ul id="bdcde6c8-212b-4318-b4bb-5fcc358413b8" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1202/B">https://codeforces.com/problemset/problem/1202/B</a></li></ul><ul id="6363b09f-eb0a-497c-bc27-7e5fa1169f37" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1284/C">https://codeforces.com/problemset/problem/1284/C</a></li></ul><ul id="8b7396d0-d576-4cae-9309-5f162371df48" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1253/D">https://codeforces.com/problemset/problem/1253/D</a></li></ul><ul id="692122ce-e386-4010-86f4-730982988f0a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1204/C">https://codeforces.com/problemset/problem/1204/C</a></li></ul><ul id="8f49e5d8-af84-4e3b-a4f3-3f4225cedce8" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1219/C">https://codeforces.com/problemset/problem/1219/C</a></li></ul><ul id="5c7c3ce1-0b96-49ff-bb30-0c331c71d887" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1244/D">https://codeforces.com/problemset/problem/1244/D</a></li></ul><ul id="fb06e215-c626-417d-bf1e-1b87ec92ab14" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1301/C">https://codeforces.com/problemset/problem/1301/C</a></li></ul><ul id="5db7ddc6-32ab-469a-baf4-8abb074dff9b" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1279/D">https://codeforces.com/problemset/problem/1279/D</a></li></ul><ul id="bb2a671e-7acd-4b0b-8776-1734d9a6e845" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1209/D">https://codeforces.com/problemset/problem/1209/D</a></li></ul><ul id="4b5fdaf9-b106-4ed0-b6f2-aa0e5df9ade2" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1260/C">https://codeforces.com/problemset/problem/1260/C</a></li></ul><ul id="f8fb29ea-b0c1-4ec3-9d13-78d9910f99b4" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1176/E">https://codeforces.com/problemset/problem/1176/E</a></li></ul><ul id="3c404dc4-674c-4259-adbf-ef5ad4878015" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1196/D2">https://codeforces.com/problemset/problem/1196/D2</a></li></ul></details></li></ul><ul id="6d072f33-2c36-4e97-b10d-83469d337128" class="toggle"><li><details open=""><summary>Codeforces 1800 ladder</summary><ul id="441984a1-c2db-4bf8-8f6c-b6af1cc1292c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1285/D">https://codeforces.com/problemset/problem/1285/D</a></li></ul><ul id="e750f5d6-d743-424e-93e6-db004a12df56" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1292/B">https://codeforces.com/problemset/problem/1292/B</a></li></ul><ul id="0b6b5f7c-e7fd-4597-b8ac-a238355a3240" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1283/D">https://codeforces.com/problemset/problem/1283/D</a></li></ul><ul id="bee57ba3-e280-4868-b542-78be0e199f4c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1177/B">https://codeforces.com/problemset/problem/1177/B</a></li></ul><ul id="98bd7356-270c-4edd-a8dc-7ff345009172" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1207/D">https://codeforces.com/problemset/problem/1207/D</a></li></ul><ul id="a3e72c96-61a5-4e79-bf47-07e05c39618b" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1238/D">https://codeforces.com/problemset/problem/1238/D</a></li></ul><ul id="77d8b0d0-9fd0-4f3e-a027-8b129a02605e" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1299/B">https://codeforces.com/problemset/problem/1299/B</a></li></ul><ul id="7da07afe-f148-4ba0-a1a7-4c3f58e2e3bc" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1203/D2">https://codeforces.com/problemset/problem/1203/D2</a></li></ul><ul id="e9e8b563-82a6-41e3-b147-55f52d4bd2f2" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1277/D">https://codeforces.com/problemset/problem/1277/D</a></li></ul><ul id="8d557c1c-0b26-4683-ac1b-f53e77c207ea" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1107/D">https://codeforces.com/problemset/problem/1107/D</a></li></ul><ul id="3dba510f-9dcc-4671-b1c7-72557fde4080" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1320/B">https://codeforces.com/problemset/problem/1320/B</a></li></ul><ul id="86f835d1-cd47-49ff-a5d3-e041ce119ca5" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1326/D2">https://codeforces.com/problemset/problem/1326/D2</a></li></ul><ul id="8442afeb-4366-490c-8b85-e444360eb784" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1328/D">https://codeforces.com/problemset/problem/1328/D</a></li></ul><ul id="820adcb2-c5c2-4026-a259-89d5395fc812" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1338/B">https://codeforces.com/problemset/problem/1338/B</a></li></ul><ul id="1c11078e-0b74-40e4-a5d8-ee51df20b23c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1303/D">https://codeforces.com/problemset/problem/1303/D</a></li></ul><ul id="4ce4e723-50e6-4535-9175-6b71f45cf463" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1251/D">https://codeforces.com/problemset/problem/1251/D</a></li></ul><ul id="2ba0c83a-c5fb-4836-9230-be56e07b7384" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1214/D">https://codeforces.com/problemset/problem/1214/D</a></li></ul><ul id="e47ffae8-55e7-4e0b-84a4-6dbc2ce583df" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1207/E">https://codeforces.com/problemset/problem/1207/E</a></li></ul><ul id="0ee0be94-b475-4919-ab0a-000d32988044" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1186/C">https://codeforces.com/problemset/problem/1186/C</a></li></ul><ul id="08ad4304-8c83-4831-ac18-093e82b78d16" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1153/D">https://codeforces.com/problemset/problem/1153/D</a></li></ul><ul id="d0771c24-14c4-46d5-9644-7bcff23dfeab" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1327/E">https://codeforces.com/problemset/problem/1327/E</a></li></ul></details></li></ul><ul id="becc8c77-1788-4c5f-9dbc-06469c289b5f" class="toggle"><li><details open=""><summary>Codeforces 1900 ladder</summary><ul id="248bb452-9397-42ee-8199-13d8d18abf80" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1081/E">https://codeforces.com/problemset/problem/1081/E</a></li></ul><ul id="fa435d3e-f595-41bd-a635-bbddd96014a0" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/958/F2">https://codeforces.com/problemset/problem/958/F2</a></li></ul><ul id="97cb0d1d-4664-41da-803e-91d358e94efb" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/835/D">https://codeforces.com/problemset/problem/835/D</a></li></ul><ul id="8483eb00-df00-447d-b3a1-257d273d7d78" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1270/D">https://codeforces.com/problemset/problem/1270/D</a></li></ul><ul id="fe3c2662-08d0-412b-b1d2-b14a14efa18a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1200/D">https://codeforces.com/problemset/problem/1200/D</a></li></ul><ul id="ea759b99-e25c-4aab-baa8-c73369338a87" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1144/E">https://codeforces.com/problemset/problem/1144/E</a></li></ul><ul id="5536253b-5b5a-4813-b4cc-dda983158411" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1329/B">https://codeforces.com/problemset/problem/1329/B</a></li></ul><ul id="57d28b3b-57d9-4ef0-8a8c-051e3726d80b" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1260/D">https://codeforces.com/problemset/problem/1260/D</a></li></ul><ul id="68b03b3d-6b99-4c1c-907e-4b344cb12665" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/758/D">https://codeforces.com/problemset/problem/758/D</a></li></ul><ul id="83886b8f-ea0b-4c97-899b-806d7bb99977" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/935/D">https://codeforces.com/problemset/problem/935/D</a></li></ul><ul id="f90d910b-9a98-43a5-94ab-db150d868214" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1311/D">https://codeforces.com/problemset/problem/1311/D</a></li></ul><ul id="04a11a9c-1e96-470e-860e-044d9a963164" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1307/D">https://codeforces.com/problemset/problem/1307/D</a></li></ul><ul id="7b542a15-1b26-44ef-8268-06ded19498cd" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1250/J">https://codeforces.com/problemset/problem/1250/J</a></li></ul><ul id="fa6b0422-3aa8-49f3-96ab-70f89f51f88d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1196/E">https://codeforces.com/problemset/problem/1196/E</a></li></ul><ul id="64f353e4-7ed5-442e-82db-b48c571e13e6" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1305/D">https://codeforces.com/problemset/problem/1305/D</a></li></ul><ul id="17517f6b-7795-429f-99b9-eaf67a67e272" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1290/B">https://codeforces.com/problemset/problem/1290/B</a></li></ul><ul id="4e6c9869-d10a-4eed-b23f-88d0f8ecc4a4" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1245/D">https://codeforces.com/problemset/problem/1245/D</a></li></ul><ul id="41f9b077-75f4-4a9f-a5c3-5e4c174455e9" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1202/D">https://codeforces.com/problemset/problem/1202/D</a></li></ul><ul id="ff2b7dd4-ab43-4756-b39b-44ea81fd3d31" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1205/B">https://codeforces.com/problemset/problem/1205/B</a></li></ul><ul id="13fec05b-983b-4090-a18f-a949078896b7" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1176/D">https://codeforces.com/problemset/problem/1176/D</a></li></ul><ul id="b05e5d10-73fa-455a-a60b-8af5f31a67aa" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1313/C2">https://codeforces.com/problemset/problem/1313/C2</a></li></ul></details></li></ul><ul id="aa6c0056-6948-4cdd-81d9-cdf4c8932e74" class="toggle"><li><details open=""><summary>Codeforces 2000+ (1) ladder</summary><ul id="e4cfe55d-c704-4452-988a-88c455900607" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1320/C">https://codeforces.com/problemset/problem/1320/C</a></li></ul><ul id="c6aac106-df1d-4f5f-bf0a-5e27dc929034" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1333/D">https://codeforces.com/problemset/problem/1333/D</a></li></ul><ul id="5092b95e-6720-4332-ad32-d2803fdfd7c1" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1294/E">https://codeforces.com/problemset/problem/1294/E</a></li></ul><ul id="c6e9dd18-ae26-477a-8854-d47ea7a66546" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1304/E">https://codeforces.com/problemset/problem/1304/E</a></li></ul><ul id="eed078f4-08e5-4b7b-a4a0-2681764ee7ab" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1280/C">https://codeforces.com/problemset/problem/1280/C</a></li></ul><ul id="b746b61a-719b-4f31-849a-9a8d1cb3f5ce" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1272/E">https://codeforces.com/problemset/problem/1272/E</a></li></ul><ul id="4af0ce35-3b6e-40db-94b5-a16a89a8d18b" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1213/E">https://codeforces.com/problemset/problem/1213/E</a></li></ul><ul id="f3183841-184f-4591-98f2-9f76cd4f52d6" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1131/D">https://codeforces.com/problemset/problem/1131/D</a></li></ul><ul id="1a1f4e53-5708-4911-817c-f9510705a719" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1118/E">https://codeforces.com/problemset/problem/1118/E</a></li></ul><ul id="380f47bf-b569-43ff-a85e-a4bde6a88d24" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1201/D">https://codeforces.com/problemset/problem/1201/D</a></li></ul><ul id="e747ff76-32a0-42a7-9fee-249068b7635a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1172/B">https://codeforces.com/problemset/problem/1172/B</a></li></ul><ul id="b5d1ddf1-6a86-426d-b292-ab533508c37b" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1223/D">https://codeforces.com/problemset/problem/1223/D</a></li></ul><ul id="dcdbf62f-d3fd-4d63-9ddf-360a25f472f9" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1268/B">https://codeforces.com/problemset/problem/1268/B</a></li></ul><ul id="b275d462-6833-4db4-b878-5f014c01c08a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1266/D">https://codeforces.com/problemset/problem/1266/D</a></li></ul><ul id="8642f924-d6f7-4367-b70d-d0c5bda8d3a3" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1257/E">https://codeforces.com/problemset/problem/1257/E</a></li></ul><ul id="b5002e8d-7c0a-4c6a-993a-160061c72bbf" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1263/E">https://codeforces.com/problemset/problem/1263/E</a></li></ul><ul id="561bc357-fa4a-4e89-b689-1b76e290f47a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1249/D2">https://codeforces.com/problemset/problem/1249/D2</a></li></ul><ul id="ec88cc65-a1de-44e9-8296-2330e3818297" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1234/E">https://codeforces.com/problemset/problem/1234/E</a></li></ul><ul id="0962fdd4-0960-47ee-905a-b979f70b53bb" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1217/D">https://codeforces.com/problemset/problem/1217/D</a></li></ul><ul id="3746cfef-401b-48b5-985f-400bbbdfc947" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1213/G">https://codeforces.com/problemset/problem/1213/G</a></li></ul><ul id="af80a26a-1245-4f06-a8b6-ffd6b9598b34" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1163/C2">https://codeforces.com/problemset/problem/1163/C2</a></li></ul></details></li></ul><ul id="960d16f5-1905-402c-bd05-4f177b02c54b" class="toggle"><li><details open=""><summary>Codeforces 2000+ (2) ladder</summary><ul id="1e159f52-8332-459b-be11-20b3e382c8f2" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1225/E">https://codeforces.com/problemset/problem/1225/E</a></li></ul><ul id="1fee47a9-6a67-4024-96d1-1262c2f47d8c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1209/F">https://codeforces.com/problemset/problem/1209/F</a></li></ul><ul id="e4fa04e1-4701-44e0-8f13-58156b0035ba" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1338/E">https://codeforces.com/problemset/problem/1338/E</a></li></ul><ul id="446bd1dc-43eb-4b2f-81e3-48c1aa274e40" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1310/F">https://codeforces.com/problemset/problem/1310/F</a></li></ul><ul id="c9960ee6-c39c-4170-aba7-d57edc0584ea" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1292/F">https://codeforces.com/problemset/problem/1292/F</a></li></ul><ul id="8d332682-27d5-4970-bbc6-4073cc290d35" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1288/F">https://codeforces.com/problemset/problem/1288/F</a></li></ul><ul id="5b556800-70a7-4bf3-aa36-365d3cf85f20" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1286/C2">https://codeforces.com/problemset/problem/1286/C2</a></li></ul><ul id="4fe1f33f-e38d-4b26-9b66-30298c3b515e" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1312/F">https://codeforces.com/problemset/problem/1312/F</a></li></ul><ul id="6e2d0a64-2583-42f3-9907-78662994a35f" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1327/G">https://codeforces.com/problemset/problem/1327/G</a></li></ul><ul id="5f245009-39dd-40c4-ad07-35c4ab47eaa9" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1296/F">https://codeforces.com/problemset/problem/1296/F</a></li></ul><ul id="47ccad0d-7944-4ad6-bb38-ee0ff1739d7f" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1305/E">https://codeforces.com/problemset/problem/1305/E</a></li></ul><ul id="d8278367-a96d-44c8-b5ec-8a1b6da02939" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1279/E">https://codeforces.com/problemset/problem/1279/E</a></li></ul><ul id="4986d896-838d-42aa-9f57-db9064f4d649" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1286/D">https://codeforces.com/problemset/problem/1286/D</a></li></ul><ul id="e1db6e53-8737-49c0-8144-e9d5fed9fbb1" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1332/F">https://codeforces.com/problemset/problem/1332/F</a></li></ul><ul id="1e42e436-f2ba-4541-8972-140690d39674" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1334/E">https://codeforces.com/problemset/problem/1334/E</a></li></ul><ul id="b02bf7c1-6f8b-4d2b-bcd4-40eaf932af5d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1335/F">https://codeforces.com/problemset/problem/1335/F</a></li></ul><ul id="9ec829c2-fdaa-4673-afb4-fd8f5b11fca7" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1329/E">https://codeforces.com/problemset/problem/1329/E</a></li></ul><ul id="816d0d89-f055-4c53-99b5-79f9590a5ff2" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1310/C">https://codeforces.com/problemset/problem/1310/C</a></li></ul><ul id="208e1387-2322-4c3f-8784-8f8818b7d046" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1329/C">https://codeforces.com/problemset/problem/1329/C</a></li></ul><ul id="99e9e406-9bec-46eb-9c94-5c0dd768cf57" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1284/E">https://codeforces.com/problemset/problem/1284/E</a></li></ul><ul id="bf87ec3f-8ecb-4429-95fc-88038e03d6f7" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1283/F">https://codeforces.com/problemset/problem/1283/F</a></li></ul><ul id="0612c87f-592b-482b-a54a-219d3a97009a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1338/C">https://codeforces.com/problemset/problem/1338/C</a></li></ul><ul id="0b03ce9d-3880-4e2d-b394-7efd8a8b9b32" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1326/F2">https://codeforces.com/problemset/problem/1326/F2</a></li></ul><ul id="a0ab5fe9-eb85-4696-8892-060e219cc24d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1333/E">https://codeforces.com/problemset/problem/1333/E</a></li></ul><ul id="0a420aa6-bce7-419b-886e-07fbfc45f4c8" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1333/F">https://codeforces.com/problemset/problem/1333/F</a></li></ul><ul id="af2a47cb-ef55-44ec-8fea-38635f23c75d" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1280/D">https://codeforces.com/problemset/problem/1280/D</a></li></ul><ul id="778c6354-cc71-4c54-883a-23e15bccdd77" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1280/E">https://codeforces.com/problemset/problem/1280/E</a></li></ul><ul id="f8032486-f5a6-4f73-a25a-4c4cb0edf78c" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1303/G">https://codeforces.com/problemset/problem/1303/G</a></li></ul><ul id="43100480-22cf-4de2-9538-46a8af547bd5" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1299/D">https://codeforces.com/problemset/problem/1299/D</a></li></ul><ul id="472f1f2b-fdc1-4c7c-b29c-65f32ae6798a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1327/F">https://codeforces.com/problemset/problem/1327/F</a></li></ul><ul id="d1410d86-6462-4b47-b983-9d37adb2c123" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1325/F">https://codeforces.com/problemset/problem/1325/F</a></li></ul><ul id="706ab098-c164-4d1b-8f2d-35cd85abc58a" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1322/D">https://codeforces.com/problemset/problem/1322/D</a></li></ul><ul id="774e317b-a4cf-4013-8ced-f69f11e89e72" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1322/C">https://codeforces.com/problemset/problem/1322/C</a></li></ul><ul id="2fa576f2-b35e-4fa8-89ed-f076309263db" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1322/B">https://codeforces.com/problemset/problem/1322/B</a></li></ul><ul id="5a5bf93a-e36e-48df-9e24-148df7f5746b" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1303/E">https://codeforces.com/problemset/problem/1303/E</a></li></ul><ul id="85eb3f9f-46b8-4c98-8ee1-66bc03e19824" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1295/F">https://codeforces.com/problemset/problem/1295/F</a></li></ul><ul id="f2c90f86-852e-4acd-9847-cd66da3d2d4e" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1280/F">https://codeforces.com/problemset/problem/1280/F</a></li></ul><ul id="31d3d0d9-56cb-457f-b56c-b77d98a81c69" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1282/D">https://codeforces.com/problemset/problem/1282/D</a></li></ul><ul id="a9c55c27-21bc-4421-a98a-270679290da6" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1290/D">https://codeforces.com/problemset/problem/1290/D</a></li></ul><ul id="349bb8c4-1c78-4ddf-8e66-c5db3c4c8734" class="bulleted-list"><li><a href="https://codeforces.com/problemset/problem/1296/E2">https://codeforces.com/problemset/problem/1296/E2</a></li></ul></details></li></ul><p id="f3662467-8575-4982-b37e-e8f8f7c43526" class="">
+</p></div></article></body></html>

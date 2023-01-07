@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  -webkit-print-color-adjust: exact;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  color: #37352F;
+}
+
+body {
+  line-height: 1.5;
+}
+
+@media only screen {
+  body {
+    margin: 2em auto;
+    max-width: 900px;
+    color: rgb(55, 53, 47);
+  }
+}
+
+img {
+  max-width: 100%;
+  max-height: 70vh;
+}
+
+ol,
+ul {
+  margin: 0;
+  margin-block-start: 0.6em;
+  margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+  margin-block-start: 0.6em;
+}
+
+ul > li {
+  list-style: disc;
+}
+
+ul.to-do-list {
+  text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+  list-style: none;
+}
+
+.to-do-children-checked {
+  text-decoration: line-through;
+  opacity: 0.375;
+}
+
+ul.toggle > li {
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 1.7em;
+}
+
+ul > li {
+  padding-left: 0.1em;
+}
+
+ol {
+  padding-inline-start: 1.6em;
+}
+
+ol > li {
+  padding-left: 0.2em;
+}
+
+.mono ol {
+  padding-inline-start: 2em;
+}
+
+.mono ol > li {
+  text-indent: -0.4em;
+}
+
+.toggle {
+  padding-inline-start: 0em;
+  list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+  padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+  margin-left: -1.1em;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+}
+
+.icon {
+  display: inline-block;
+  max-width: 1.2em;
+  max-height: 1.2em;
+  text-decoration: none;
+  vertical-align: text-bottom;
+  margin-right: 0.5em;
+}
+
+img.icon {
+  border-radius: 3px;
+}
+
+.page-cover-image {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.page-header-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+  margin-top: -0.72em;
+  margin-left: 0.07em;
+}
+
+.page-header-icon img {
+  border-radius: 3px;
+}
+
+blockquote {
+  font-size: 1.25em;
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 3px solid rgb(55, 53, 47);
+}  
+
+h1 {
+  font-size: 1.875rem;
+  margin-top: 1.875rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.callout {
+  padding: 16px 16px 16px 12px;
+  display: flex;
+  width: 100%;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.callout-emoji {
+  height: 21.6px;
+  width: 21.6px;
+  font-size: 21.6px;
+  line-height: 1.1;
+  margin-left: 0px;
+}
+
+.callout p {
+  max-width: 100%;
+  width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-left: 10px;
+}
+
+.image {
+  border: none;
+  margin: 1.5em 0;
+  padding: 0;
+  border-radius: 0;
+  text-align: center;
+}
+
+figure {
+  margin: 1.25em 0;
+  page-break-inside: avoid;
+}
+
+figcaption {
+  opacity: 0.5;
+  font-size: 85%;
+  margin-top: 0.5em;
+}
+
+hr {
+  background: transparent;
+  display: block;
+  width: 100%;
+  height: 1px;
+  visibility: visible;
+  border: none;
+  border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+.checkbox {
+  display: inline-flex;
+  vertical-align: text-bottom;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+.checkbox-on {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+</style>
+<title>Postulates of Quantum Mechanics</title>
+<link href="https://unpkg.com/prismjs@1.22.0/themes/prism.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+
+<h1 class="page-title">Postulates of Quantum Mechanics</h1>
+</header>    
+<p>I shall state here the four major generic postulates of Quantum Mechanics stated in terms of both state-vector formalization and density-matrix formalization.</p>
+<h2>State is a vector</h2>
+<ol>
+<li><span style="text-decoration: underline;">Isolated</span> physical system is given by its state vector operating on a certain Hilbert space.</li>
+<li>Evolution of a <span style="text-decoration: underline;">closed</span> quantum system is given by a unitary transformation.<p>In its physical interpretation we have this postulate governed by the Schrodinger Equation, as stated.</p>
+<div class="equation">$$i{\hbar}\frac{d\vert\psi\rangle}{dt} = H\vert\psi\rangle$$</div>
+<p>The Hamiltonian is a hermitian operator and has a spectral decomposition, $H = \sum E\vert E\rangle\langle E\vert$.</p></li>
+<li>The state space of a <span style="text-decoration: underline;">composite</span> physical system is the tensor product of the state spaces of the component systems.<div class="equation">$$\vert\psi\rangle = \vert\psi_1\rangle\otimes...\otimes\vert\psi_n\rangle$$</div></li>
+<li>Quantum measurements are described by a collection $\{M_m\}$ of measurement operators acting on the state space of the system. <p>Probability that upon measurement the outcome is $m = p(m) = \langle\psi\vert M_m^\dagger M_m\vert\psi\rangle$ and the state of the system becomes as follows.</p>
+<div class="equation">$$\vert\psi\rangle \xrightarrow{\text{on measuring}} \frac{M_m\vert\psi\rangle}{\sqrt{p(m)}} = \frac{M_m\vert\psi\rangle}{||M_m\vert\psi\rangle||}$$</div>
+<p>Measurement operators also follow the completeness equation, $\sum_m M_m^\dagger M_m = I$.</p></li>
+</ol>
+<h2>State is a density matrix</h2>
+<ol>
+<li><span style="text-decoration: underline;">Isolated</span> physical system is given by its density matrix operating on a certain Hilbert space.</li>
+<li>Evolution of a <span style="text-decoration: underline;">closed</span> quantum system is given by a unitary transformation as $\rho \xrightarrow{U} U\rho U^\dagger$.</li>
+<li>The state space of a <span style="text-decoration: underline;">composite</span> physical system is the tensor product of the state spaces of the component systems.<div class="equation">$$\rho = \rho_1\otimes...\otimes\rho_n$$</div></li>
+<li>Quantum measurements are described by a collection $\{M_m\}$ of measurement operators acting on the state space of the system. <p>Probability that upon measurement the outcome is $m = p(m) = tr(M_m^\dagger M_m\rho)$ and the state of the system becomes as follows.</p>
+<div class="equation">$$\rho \xrightarrow{\text{on measuring}} \frac{M_m\rho M_m^\dagger}{p(m)}$$</div>
+<p>Measurement operators also follow the completeness equation, $\sum_m M_m^\dagger M_m = I$.</p></li>
+</ol>
+<script src="https://unpkg.com/prismjs@1.22.0/components/prism-core.min.js"></script>
+<script src="https://unpkg.com/prismjs@1.22.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+</body>
+</html>

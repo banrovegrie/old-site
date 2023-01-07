@@ -1,0 +1,685 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Haskell in Harsh Words</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="7fa1e512-bb14-4874-a288-83fb83fafc95" class="page sans"><header><div class="page-header-icon undefined"><img class="icon" src="Haskell%20in%20Harsh%20Words%207fa1e512bb144874a28883fb83fafc95/haskell-logo-small.png"/></div><h1 class="page-title">Haskell in Harsh Words</h1></header><div class="page-body"><hr id="49ddca67-9952-4c5e-864f-f169af97ad9a"/><h1 id="87b8cc9d-f56b-449f-8e3c-63bd3c27a471" class="">Table of Contents</h1><hr id="fd11b347-5a6f-4aa6-b2e8-55d57a266a36"/><nav id="5070ffb3-04de-45be-9562-35bddc225715" class="block-color-blue table_of_contents"><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#87b8cc9d-f56b-449f-8e3c-63bd3c27a471">Table of Contents</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#3a9a43e1-ccea-450d-96a1-65b24d807fd8">The Fuck is Haskell?</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#e7c2fb11-a691-43d8-a790-3fc50ef0d556">Meaning of the above bullshit words?</a></div><div class="table_of_contents-item table_of_contents-indent-2"><a class="table_of_contents-link" href="#f70d1294-0147-4e43-88ff-88d8b5e71230">Functional</a></div><div class="table_of_contents-item table_of_contents-indent-2"><a class="table_of_contents-link" href="#04faccb0-89ee-411b-99f5-83008d4f19bc">Pure</a></div><div class="table_of_contents-item table_of_contents-indent-2"><a class="table_of_contents-link" href="#832b9600-e569-45cd-8ae7-a5f5e11e3ba7">Lazy</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#41db202a-093d-4e88-980e-b56d7e4a5665">Haskell, the new cool guy in campus</a></div><div class="table_of_contents-item table_of_contents-indent-2"><a class="table_of_contents-link" href="#87455a05-3906-413d-af6a-a58155267ed6">Types</a></div><div class="table_of_contents-item table_of_contents-indent-2"><a class="table_of_contents-link" href="#537d2249-6073-4ada-9918-bff2070300d9">Abstraction</a></div><div class="table_of_contents-item table_of_contents-indent-2"><a class="table_of_contents-link" href="#89315d7c-205d-4285-b666-a96bd0924b1f">What can I do with it?</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#d37a271a-d366-4193-9d6c-8225a8ecd445">Haskell: A Functional Programming Langauge</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#7bb179d8-842c-455f-8bab-6795f2cf0844">Properties of Haskell</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#fd7663f8-1590-4d09-8c7d-edf905d853d2">First Steps</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#32da24d9-0485-4137-813e-91e2ecec275b">Function Format</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#0fd8928d-5598-4756-8db4-59f726374ade">Examples</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#127da243-4e8b-433a-a90f-60a87d5c290b">Types and class</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#6c7b06ba-d108-44c9-a4d7-151c124e2325"><strong>Types</strong></a></div><div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#5d301e88-539c-437b-bdee-97924720e9d4">Classes</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#d48fe69b-1aaa-4082-bc7e-d19504414974">Functions</a></div></nav><h1 id="3a9a43e1-ccea-450d-96a1-65b24d807fd8" class="">The Fuck is Haskell?</h1><hr id="6afddbe9-3488-46b3-b391-2a9cd4f19824"/><p id="efe18a4c-bc98-4b75-8a11-2808a5671f36" class="">A <em>pure</em>, <em>lazy</em>, <em>functional</em> programming language. Basically, it is something that happens when like-minded cool people come together.</p><h2 id="e7c2fb11-a691-43d8-a790-3fc50ef0d556" class="">Meaning of the above bullshit words?</h2><h3 id="f70d1294-0147-4e43-88ff-88d8b5e71230" class="">Functional</h3><ul id="fb27615e-c745-4257-a265-3964314172b4" class="bulleted-list"><li>All hail functions. Children of the idea behind lambda calculus. Use functions just like any other sort of values.</li></ul><ul id="dd2f6717-fb08-4535-8dbc-1b8b7e137322" class="bulleted-list"><li>Evaluate not execute.</li></ul><h3 id="04faccb0-89ee-411b-99f5-83008d4f19bc" class="">Pure</h3><ul id="b9cbf973-1670-42c7-af32-cb7aa358f1de" class="bulleted-list"><li>Immutability is the key.</li></ul><ul id="4f43e886-dbb7-4af7-be7d-e31c75f38b29" class="bulleted-list"><li>Fuck all side-effects.</li></ul><ul id="7179dede-b7e0-4962-805c-37e784871825" class="bulleted-list"><li>Deterministic as fuck.</li></ul><ul id="8e27b970-b4a7-49a9-bbe7-af29cd893e55" class="bulleted-list"><li>Benefits: equational reasoning, parallelism, happiness</li></ul><h3 id="832b9600-e569-45cd-8ae7-a5f5e11e3ba7" class="">Lazy</h3><ul id="d0289f08-2ef3-41aa-8aa9-bbf102e0011f" class="bulleted-list"><li>Infinity? ez.</li></ul><ul id="53afb55f-b1bc-4b5a-8e38-408b2edba65a" class="bulleted-list"><li>Compositional programming — you feel like Mozart.</li></ul><ul id="276cc352-1e86-47e0-a8b2-b2f1c393bb7a" class="bulleted-list"><li>Disadvantage: Wot is time? Wot is space?</li></ul><h2 id="41db202a-093d-4e88-980e-b56d7e4a5665" class="">Haskell, the new cool guy in campus</h2><h3 id="87455a05-3906-413d-af6a-a58155267ed6" class="">Types</h3><ul id="4c5fc66b-ae70-4413-a23c-61237e4c55e5" class="bulleted-list"><li>Statically typed: run time errors <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span></span><span>﻿</span></span> compile-time errors</li></ul><ul id="0005c823-b4bb-419b-ad5b-267352be26ee" class="bulleted-list"><li>Expressive: the code is the documentation</li></ul><ul id="7ece670e-b51b-4ffa-b04e-ae0de9272d18" class="bulleted-list"><li>Expressive: brings clarity into coding</li></ul><h3 id="537d2249-6073-4ada-9918-bff2070300d9" class="">Abstraction</h3><ul id="a0a15e9c-3b4d-471b-9493-04f73c17dd68" class="bulleted-list"><li>Eat, Code, Sleep, <del>Repeat</del>: Haskell has polymorphism, higher-order functions and type classes — so fuck repetition.</li></ul><ul id="56934436-00d6-4b8e-8d96-75b664a2cc78" class="bulleted-list"><li>Think about the big picture and don&#x27;t cry about some stupid exception.</li></ul><h3 id="89315d7c-205d-4285-b666-a96bd0924b1f" class="">What can I do with it?</h3><ul id="301d7d50-930c-4a43-bd67-a58955132f1d" class="bulleted-list"><li>Program Correctness (QuickCheck)</li></ul><ul id="53947332-69f1-47a1-8a73-5a0a7c206297" class="bulleted-list"><li>Fail safe programming (Cardano)</li></ul><ul id="690d5cda-053b-42d4-a7ca-9e6906bf1732" class="bulleted-list"><li>High-load concurrent programming (web back-end)</li></ul><h1 id="d37a271a-d366-4193-9d6c-8225a8ecd445" class="">Haskell: A Functional Programming Langauge</h1><hr id="74a22ad6-0283-4f93-a64f-e826397e865a"/><p id="a7854a38-8190-4900-9640-08736b94f2b2" class="">What does it mean for Haskell to be a functional programming language? Well, it means that Haskell follows the principle of functional programming — a programming paradigm where functions are the basic building blocks of computation.</p><p id="8cdefb94-7dfe-4d24-b9ea-b9e792b4952d" class=""><strong>Def: </strong><em>A function is a mapping that takes one or more arguments and produces a single result.</em></p><h2 id="7bb179d8-842c-455f-8bab-6795f2cf0844" class="">Properties of Haskell</h2><ul id="c47dceba-935f-405e-95c5-14a9518bcec1" class="bulleted-list"><li>Consice programs</li></ul><ul id="6a4355c8-7a0e-4911-9ae3-7752758367e6" class="bulleted-list"><li>Powerful type system</li></ul><ul id="7afe6da4-4352-4584-a419-7742bc0c31e2" class="bulleted-list"><li>List comprehension</li></ul><ul id="259177ca-41ae-4c48-9334-245b9f82763f" class="bulleted-list"><li>Recursive functions</li></ul><ul id="a1f5376a-016b-4e1c-a746-2c9473e38cf1" class="bulleted-list"><li>Higher-order functions</li></ul><ul id="e0494021-73c9-435d-beb9-2766a2d93740" class="bulleted-list"><li>Effectful functions</li></ul><ul id="be4231b4-abc7-4f11-b71a-ac53135e8483" class="bulleted-list"><li>Generic functions</li></ul><ul id="c82953b6-8818-403c-93ba-81e8a1dfaa84" class="bulleted-list"><li>Lazy evaluation</li></ul><ul id="1df894e8-d3f8-4e20-8384-afd14723c4f5" class="bulleted-list"><li>Equational reasoning</li></ul><h1 id="fd7663f8-1590-4d09-8c7d-edf905d853d2" class="">First Steps</h1><hr id="14d5803a-7a77-46db-8385-ca8db01cdf81"/><p id="0bb80889-36e4-4994-ba53-6bb9a301e586" class="">Haskell comes with a large number of built-in functions, which are defined in a library file called the standard prelude.</p><ul id="6290ec71-c704-4403-988e-450e9255ddc6" class="bulleted-list"><li><code>head &lt;list&gt;</code></li></ul><ul id="95705e75-5842-4168-b077-72e5438e1e53" class="bulleted-list"><li><code>tail &lt;list&gt;</code></li></ul><ul id="8801c324-f8d9-4663-8abb-4d76c4b7459d" class="bulleted-list"><li><code>take &lt;num&gt; &lt;list&gt;</code></li></ul><ul id="cd59be20-3a2a-49d5-88c6-36eb37882227" class="bulleted-list"><li><code>drop &lt;num&gt; &lt;list&gt;</code></li></ul><ul id="bc1820fa-a052-4c17-8901-0557c76eb5c9" class="bulleted-list"><li><code>sum &lt;list&gt;</code></li></ul><ul id="ee467501-5c4a-4f39-a8ed-923060bb5429" class="bulleted-list"><li><code>reverse &lt;list&gt;</code></li></ul><ul id="0302ec1a-8645-4a2c-aef6-2f36289e04f1" class="bulleted-list"><li><code>product &lt;list&gt;</code></li></ul><h2 id="32da24d9-0485-4137-813e-91e2ecec275b" class="">Function Format</h2><p id="c0a2fc01-e499-4cec-9775-4c59fc1263b8" class="">Just as in lambda calculus haskell follows a fixed pattern for functions. Here are some examples to elaborate:</p><ul id="5c01d71a-010a-44d1-aa3e-cc873d94f5cb" class="bulleted-list"><li><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span></span></span></span></span><span>﻿</span></span> as <code>f x</code></li></ul><ul id="a294bbf8-16c0-49e6-acbf-e5c4e214223f" class="bulleted-list"><li><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x, y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span></span><span>﻿</span></span> as <code>f x y</code></li></ul><ul id="b7f2d9df-1340-40e9-a179-1f5c431f4b2e" class="bulleted-list"><li><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(g(x))</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mclose">)</span></span></span></span></span><span>﻿</span></span> as <code>f (g x)</code></li></ul><ul id="f195f581-a984-49c8-820d-e24ace49b518" class="bulleted-list"><li><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>g</mi><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x, g(y))</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mclose">)</span></span></span></span></span><span>﻿</span></span> as <code>f x (g y)</code></li></ul><ul id="b390c739-a03b-48b9-aa6e-dc0d7fa51ac4" class="bulleted-list"><li><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mi>g</mi><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x)g(y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span></span><span>﻿</span></span> as <code>f x * g y</code></li></ul><h2 id="0fd8928d-5598-4756-8db4-59f726374ade" class="">Examples</h2><pre id="eed301fd-391f-4d61-abfc-e97dcf8a70ae" class="code"><code>-- Program 1
+main = print (a ++ b ++ c)
+a = [((2**3) * 4)]
+b = [(2*3) + (4*5)]
+c = [2 + (3 * (4**5))]
+
+
+-- Program 2
+main = print (n)
+n = (a `div` (length xs))
+    where
+        a = 10
+        xs = [1 .. 5]
+
+
+-- Program 3
+main = print (a [1 .. 5])
+a xs = sum (drop (length xs - 1) (take (length xs) xs))main = putStrLn &quot;hello, world&quot;</code></pre><h1 id="127da243-4e8b-433a-a90f-60a87d5c290b" class="">Types and class</h1><hr id="02de2f71-fafc-4d9c-b534-5b712b65980c"/><h3 id="6c7b06ba-d108-44c9-a4d7-151c124e2325" class=""><strong>Types</strong></h3><ul id="d088721b-4827-4ebc-a743-f15100c9b3bd" class="bulleted-list"><li>They are a collection of related values.</li></ul><ul id="be3274fa-1225-4493-8630-84a7dec97432" class="bulleted-list"><li><code>f :: A -&gt; B</code> and <code>e :: A</code> then, <code>f e :: B</code></li></ul><ul id="615d9ded-8828-40ad-a31d-f9021fa1716f" class="bulleted-list"><li><strong>Bool </strong>– logical values</li></ul><ul id="ada65c11-e5cd-40fd-b1bf-30b57dd73911" class="bulleted-list"><li><strong>Char </strong>– single characters</li></ul><ul id="71806326-fd57-4abc-bc6b-72940c15bd53" class="bulleted-list"><li><strong>String </strong>– strings of characters</li></ul><ul id="2e9641c2-ad38-49b8-8a5b-388f6549f0c7" class="bulleted-list"><li><strong>Int </strong>– fixed-precision integers</li></ul><ul id="7c3e9e70-fbb1-4658-826e-a9e5c2cdbbc2" class="bulleted-list"><li><strong>Integer </strong>– arbitrary-precision integers</li></ul><ul id="97f94e89-1892-4fd8-b485-d82f4f5bf438" class="bulleted-list"><li><strong>Float </strong>– single-precision floating-point numbers</li></ul><ul id="a09cd5b3-cac3-4ea1-b734-ea9db8a3b7c7" class="bulleted-list"><li><strong>Double </strong>– double-precision floating-point numbers</li></ul><ul id="1d77c757-ec4c-409e-8350-39a18ef9597b" class="bulleted-list"><li><code>[[’a’,’b’],[’c’,’d’,’e’]] :: [[Char]]</code></li></ul><ul id="861efd8b-5756-47eb-b102-311efcd30390" class="bulleted-list"><li><strong>List </strong>types — <code>[&quot;One&quot;,&quot;Two&quot;,&quot;Three&quot;] :: [String]</code></li></ul><ul id="a9fc26b9-a038-4b1c-9575-1bdf0cc6dc97" class="bulleted-list"><li><strong>Tuple </strong>types — <code>(&quot;Yes&quot;,True,’a’) :: (String,Bool,Char)</code></li></ul><ul id="db36cfbb-534c-410a-92f1-b61bfa410a90" class="bulleted-list"><li><strong>Function </strong>types — <code>not :: Bool -&gt; Bool</code> and <code>add :: (Int,Int) -&gt; Int</code></li></ul><ul id="3f601308-62b1-49bd-b195-302d954a07b1" class="bulleted-list"><li>Interestingly, we can model functions in a different way as well. For e.g., <code>add x y = x + y</code> results in add being of type <code>(Int, Int) -&gt; Int</code> as well as can be modelled as <code>Int -&gt; (Int -&gt; Int)</code></li></ul><ul id="0026f7e0-d3f0-4652-bba5-636cc6b39d99" class="bulleted-list"><li><strong>Polymorphic </strong>types — for example <code>length :: [a] -&gt; Int</code> and <code>zip :: [a] -&gt; [b] -&gt; [(a, b)]</code></li></ul><h3 id="5d301e88-539c-437b-bdee-97924720e9d4" class="">Classes</h3><ul id="2dcf6c6c-985e-4b67-8368-60661db702c8" class="bulleted-list"><li>They are collections of types that support certain overloaded operations called methods.</li></ul><ul id="4067ca2f-72e7-42ac-94b7-2523fbd74437" class="bulleted-list"><li>Eq — <code>(==) :: a -&gt; a -&gt; Bool</code></li></ul><ul id="3c0df256-f594-44a0-b695-c0abdb2c3df8" class="bulleted-list"><li>Ord — <code>&lt;, &gt;, min, max</code></li></ul><ul id="ea0666a9-770e-4073-805c-d3020b7e4856" class="bulleted-list"><li>Show — <code>show :: a -&gt; String</code></li></ul><ul id="e89f98c8-fff1-4b2d-ae6c-843b6087f509" class="bulleted-list"><li>Read — <code>read :: String -&gt; a</code></li></ul><ul id="72f33a41-ab6d-4455-94b4-c06c7b9f0948" class="bulleted-list"><li>Num — e.g., <code>(+), (-), negate, abs, signum</code> with <code>(+) :: a -&gt; a -&gt; a</code></li></ul><ul id="c019ccfa-d323-4558-ade3-833b3bec7ecd" class="bulleted-list"><li>Integral — <code>div :: a -&gt; a -&gt; a</code> and <code>mod :: a -&gt; a -&gt; a</code>, also Int and Integer types are instances of this class.</li></ul><ul id="a44298ae-1739-4b2a-810b-df15506d35dc" class="bulleted-list"><li>Fractional — Float and Double are instances of this class. We also have methods such as <code>/</code> and <code>recip</code>.</li></ul><h1 id="d48fe69b-1aaa-4082-bc7e-d19504414974" class="">Functions</h1><hr id="41ce11d4-eff1-41b5-a32d-27c8b8fa220c"/><pre id="cfd15d25-ace4-4975-8a66-1e55cf37f3fd" class="code"><code>-- Let&#x27;s see an example
+even :: a -&gt; Bool
+even n = (n `mod` 2 == 0)
+
+-- Conditional using &quot;if else&quot;
+signum n = if n &gt; 0 then 1 
+else if n &lt; 0 then -1 
+else 0
+
+-- Conditional using &quot;such that&quot;
+signum n | n &gt; 0 = 1
+	 | n &lt; 0 = -1
+	 | otherwise  = 0</code></pre><p id="8e021692-ecab-412c-9887-90fd1ae962b9" class="">Let us now introduce some really cool implementation techniques in haskell with respect to defining functions.</p><ol id="a60497a2-6ef6-41dd-a1bc-0c72cd2d8b6e" class="numbered-list" start="1"><li><strong>Pattern Matching</strong><pre id="b1fdb97f-2e8e-4513-9c1a-90c8b8422767" class="code"><code>-- Define functions using &#x27;_&#x27;
+len [] = 0
+len (_:xs) = 1 + len xs
+
+initials :: String -&gt; String -&gt; String  
+initials firstname lastname = [f] ++ &quot;. &quot; ++ [l] ++ &quot;.&quot;  where (f:_) = firstname  (l:_) = lastname
+
+-- Defining using &#x27;_&#x27; fundamentally
+test :: Int -&gt; Int
+test 0 = 1
+test 1 = 2
+test _ = 0</code></pre></li></ol><ol id="20ec0e6c-a136-42ff-9be5-42d5ca00e68d" class="numbered-list" start="2"><li><strong>Lambda Functions</strong><pre id="928ad35a-17ee-4091-aeb2-92ed45be259a" class="code"><code>\x -&gt; x + 1</code></pre></li></ol><ol id="042eda19-7937-4c01-bdf9-65dfaeab624d" class="numbered-list" start="3"><li><strong>Taking input</strong><pre id="2edddff7-45b7-49c0-8ec4-a4d5343e095b" class="code"><code>-- Just mentioned here so that one can try out problems with input
+import Control.Arrow ((&gt;&gt;&gt;))
+
+main :: IO ()
+main = interact $
+        lines &gt;&gt;&gt; head &gt;&gt;&gt; read &gt;&gt;&gt; solve &gt;&gt;&gt; (++ &quot;\n&quot;)
+
+solve :: Int -&gt; String
+
+
+-- Type 2
+import Control.Arrow ((&gt;&gt;&gt;))
+
+main :: IO ()
+main =
+  interact $
+    words &gt;&gt;&gt; map read &gt;&gt;&gt; solve &gt;&gt;&gt; show &gt;&gt;&gt; (++ &quot;\n&quot;)
+
+solve :: [Integer] -&gt; Integer</code></pre></li></ol></div></article></body></html>
