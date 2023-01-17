@@ -1,0 +1,17 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+{{.Permalink}}
+   <a href="{{.Permalink}}" style="display: block; width: 100%; border: thin solid black; padding: 10px;">{{.Title}}</a></li></div>
+{{end}}
+
+{{- end }}{{/* end main */}}

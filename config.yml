@@ -1,0 +1,84 @@
+baseURL: https://banrovegrie.github.io
+languageCode: en-us
+title: Arjo
+theme: "PaperMod"
+
+enableEmoji: true
+enableRobotsTXT: true
+
+staticDir:
+  - static
+
+menu:
+  main:
+    - identifier: Archive
+      name: Archive
+      url: "/archives/"
+      weight: 10
+    # - identifier: Tags
+    #   name: Tags
+    #   url: "/tags/"
+    #   weight: 20
+    - identifier: search
+      name: Search
+      url: "/search/"
+      weight: 30
+    # - identifier: Research
+    #   name: Research
+    #   url: "/research/"
+    #   weight: 5
+    # - identifier: Section
+    #   name: Section
+    #   url: "/section/"
+    #   weight: 25
+
+params:
+  env: production
+  description: "Portfolio website of Arjo"
+  author: "Alapan Chaudhuri"
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+
+  homeInfoParams:
+    Title: Hi there! I'm Arjo.
+    Content: I am a computer science undergraduate at IIITH, interested in Algorithms Mathematics. This intersection includes areas like quantum computing, algorithm design, programming language theory and computational economics. Also, I often go by my nickname Arjo and can be found doing stand-ups when bored.
+
+  profileMode:
+    enabled: true
+    title: "Alapan Chaudhuri"
+    subtitle: "I am a computer science undergraduate at IIITH, interested in Algorithms Mathematics. This intersection includes areas like quantum computing, algorithm design, programming language theory and computational economics. Also, I often go by my nickname Arjo and can be found doing stand-ups when bored."
+    imageUrl: ""
+    # buttons:
+    #   - name: Archive
+    #     url: "/archives/"
+    #   - name: Research
+    #     url: "/research/"
+    #   - name: Search
+    #     url: "/search"
+  markup:
+    highlight:
+      style: monokai
+      codeFences: true
+      guessSyntax: true
+      lineNos: true
+
+  socialIcons:
+    - name: Github
+      url: "https://github.com/banrovegrie"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/banrovegrie/"
+
+  # editPost:
+  #   URL: "https://github.com/SarcasticNastik/SarcasticNastik.github.io/tree/main/content"
+  #   Text: "Suggest Changes"
+  #   appendFilePath: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

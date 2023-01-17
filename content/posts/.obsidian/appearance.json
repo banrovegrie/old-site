@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "cssTheme": "Things",
+  "theme": "moonstone",
+  "textFontFamily": "Inter",
+  "enabledCssSnippets": [
+    "center-image"
+  ],
+  "baseFontSize": 16
+}

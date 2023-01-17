@@ -1,0 +1,5 @@
+- Computer Science is an intersection between Mathematics (since we start from a set of rules and create out own systems), Physics (the basic rules are often motivated by Physics and Computation with Information are inherent to the understanding of the universe) and Philosophy (for often we find ourselves asking questions like — "What does it mean to be human?").
+- Aiming at uselessness has often produced the most usefulness — while dealing with mathematical ideas.
+- Computer Science is at times like geometry, for it is often based on **constructability**. We often come up with **models of computation with modularity** at its heart just as in geometry, for example constructing with only rulers and compass. Well what is the next obvious question to ask? What can I do with this model? Moreover, **what can't I do with this model?**
+- Impossibility Theorems are very hard to construct, well why? Because in order to come up with one you effectivity must have a proper idea about why all possibilities fail.
+- Computer Science talks about **implementable mathematics**.
